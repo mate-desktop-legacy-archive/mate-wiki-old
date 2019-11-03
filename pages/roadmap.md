@@ -57,9 +57,9 @@ the forum or the IRC chat to ask for new features.
 
   * Add support for [AccountsService](http://www.freedesktop.org/wiki/Software/AccountsService)
 
-  * [Complete support for systemd-logind](./systemd-logind)
+  * [Complete support for systemd-logind](./systemd-logind.md)
 
-  * [Add support for Wayland](./wayland)
+  * [Add support for Wayland](./wayland.md)
 
   * Consider dropping libmatekbd for libgnomekbd
 
@@ -106,7 +106,7 @@ Released on February 7, 2018. Announcement [here](http://mate-desktop.org/blog/2
 ### Release 1.18
 
 Released on March 13, 2017. Announcement [here](http://mate-desktop.org/blog/2017-03-13-mate-1-18-released/).
-[Old status page](./status-1.18).
+[Old status page](./status-1.18.md).
 
   * ~~Migrate all remaining packages to GTK+3 and require version 3.14~~
 
@@ -127,7 +127,7 @@ Released on March 13, 2017. Announcement [here](http://mate-desktop.org/blog/201
 ### Release 1.16
 
 Released on September 21, 2016. Announcement [here](http://mate-desktop.org/blog/2016-09-21-mate-1-16-released/).
-[Old status page](./status-1.16).
+[Old status page](./status-1.16.md).
 
   * ~~engrampa: move to GTK+3 ([#140](https://github.com/mate-desktop/engrampa/pull/140))~~
 
@@ -142,7 +142,7 @@ Released on September 21, 2016. Announcement [here](http://mate-desktop.org/blog
 ### Release 1.14
 
 Released on April 8, 2016. Announcement [here](http://mate-desktop.org/blog/2016-04-08-mate-1-14-released/).
-[Old status page](./status-1.14).
+[Old status page](./status-1.14.md).
 
   * ~~caja: allow managing each python extension separately ([#521](https://github.com/mate-desktop/caja/pull/521), [python-caja #24](https://github.com/mate-desktop/python-caja/pull/24))~~
 
@@ -171,7 +171,7 @@ Released on April 8, 2016. Announcement [here](http://mate-desktop.org/blog/2016
 ### Release 1.12
 
 Released on November 5, 2015. Announcement [here](http://mate-desktop.org/blog/2015-11-05-mate-1-12-released/).
-[Old status page](./status-1.12).
+[Old status page](./status-1.12.md).
 
   * ~~atril: use distro-packaged MathJax library ([#158](https://github.com/mate-desktop/atril/issues/158))~~
 
@@ -190,7 +190,7 @@ Released on November 5, 2015. Announcement [here](http://mate-desktop.org/blog/2
 ### Release 1.10
 
 Released on June 11, 2015. Announcement [here](http://www.mate-desktop.org/blog/2015-06-11-mate-1-10-released/).
-[Old status page](./status-1.10).
+[Old status page](./status-1.10.md).
 
   * ~~atril: Support ePub format ([#13](https://github.com/mate-desktop/mate-document-viewer/issues/13)) (GSOC 2014)~~
 
@@ -209,7 +209,7 @@ Released on June 11, 2015. Announcement [here](http://www.mate-desktop.org/blog/
 ### Release 1.8
 
 Released on March 4, 2014. Announcement [here](http://www.mate-desktop.org/blog/2014-03-04-mate-1-8-released/).
-[Old status page](./status-1.8).
+[Old status page](./status-1.8.md).
 
   * ~~caja: Add option to use IEC units instead of SI units~~
 
@@ -254,7 +254,7 @@ Released on March 4, 2014. Announcement [here](http://www.mate-desktop.org/blog/
 ### Release 1.6
 
 Released on April 2, 2013. Announcement [here](http://mate-desktop.org/2013/04/02/mate-1-6-released/).
-[Old status page](./status-1.6).
+[Old status page](./status-1.6.md).
 
   * ~~Fix deprecations in core packages ([Deprecated code](./deprecated_code))~~
 
@@ -302,15 +302,15 @@ Released on April 2, 2013. Announcement [here](http://mate-desktop.org/2013/04/0
 
   * ~~Fix all incorrect FSF addresses~~
 
-  * ~~[Replace MateConf with GSettings](./mateconf_to_gsettings)~~
+  * ~~[Replace MateConf with GSettings](./mateconf_to_gsettings.md)~~
 
-  * ~~[Replace MateCorba with DBus](./matecorba_to_dbus)~~
+  * ~~[Replace MateCorba with DBus](./matecorba_to_dbus.md)~~
 
-  * ~~[Initial support for systemd-logind](./systemd-logind)~~
+  * ~~[Initial support for systemd-logind](./systemd-logind.md)~~
 
-  * ~~[Replace MateVfs with GIO](./matevfs_to_gio)~~
+  * ~~[Replace MateVfs with GIO](./matevfs_to_gio.md)~~
 
-  * ~~[Replace libmatenotify with libnotify](./libmatenotify_to_libnotify)~~
+  * ~~[Replace libmatenotify with libnotify](./libmatenotify_to_libnotify.md)~~
 
   * ~~Remove libmateui (unused), libmatecanvas (unused), libmatecomponent and libmatecomponentui (replace with dbus)~~
 
@@ -370,7 +370,7 @@ Released on July 30, 2012. Announcement [here](http://mate-desktop.org/2012/07/3
 
   * ~~mate-icon-theme-faenza~~ Rowen_Stipe
 
-  * ~~[Translations sync with transifex](./roadmap-1.4-translations) stefano-k, Amanas~~
+  * ~~[Translations sync with transifex](./roadmap-1.4-translations.md) stefano-k, Amanas~~
 
 ### Release 1.2
 

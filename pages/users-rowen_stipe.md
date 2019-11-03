@@ -6,7 +6,7 @@ Cook |  Joseph Krieger (real) |
 [Inkscape](http://en.wikipedia.org/wiki/Inkscape) Digital Artist |  Rowen Stipe (internet) |
 [GIMP](http://en.wikipedia.org/wiki/GIMP) Intrests |  Projects |  Status
 Graphic Design|  [mate-icon-theme-faenza](http://github.com/mate-desktop/mate-icon-theme-faenza) |
-Done Mostly  Cooking |  Getting [Perberos](./users-perberos) to like Mate Faenza |  Never happening
+Done Mostly  Cooking |  Getting [Perberos](./users-perberos.md) to like Mate Faenza |  Never happening
 Music | |
 File Photo| ![](http://planet.mate-desktop.org/images/rowen_stipe.png)|
 

@@ -1,5 +1,5 @@
 
-We have several projects on our plate (see [doc-team-guide](./dev-doc-doc-team-guide)) , this page is where we will track the
+We have several projects on our plate (see [doc-team-guide](./dev-doc-doc-team-guide.md)) , this page is where we will track the
 progress.
 ---
 
@@ -12,11 +12,11 @@ now:[status:1.10](./status-1.10)_**
 
 Item | Value/Detail | Progress/Activity | Log
 ---|---|---|---
-**A** |  Defaults | Complete |  see thread below and [doc-team-guide](./dev-doc-doc-team-guide)
+**A** |  Defaults | Complete |  see thread below and [doc-team-guide](./dev-doc-doc-team-guide.md)
 _Default_ MATE artwork |  Theme “Menta” | Complete | [discussion](http://ml.mate-desktop.org/pipermail/mate-dev/2014-November/000308.html)
-**Section B** |  Original Source | Complete |  [doc-team-guide](./dev-doc-doc-team-guide)
+**Section B** |  Original Source | Complete |  [doc-team-guide](./dev-doc-doc-team-guide.md)
 **Section C** |  Organization | In Progress | Log
-**Section D** |  Transifex | TBD | [doc-team-guide](./dev-doc-doc-team-guide)
+**Section D** |  Transifex | TBD | [doc-team-guide](./dev-doc-doc-team-guide.md)
 **Section E** |  Help Links | In Progress | Log
 **Section F** |  Other Uses | Done | Log
 **Section G** |  Manpages | In Progress | Log
@@ -63,7 +63,7 @@ Reserved/Golden |  | reserved
 ## Figures List
 
 This list is up-to-date as of 20121223. Each one of these needs to be redone
-per the new default listed in the doc team guide [section A:](./dev-doc-doc-team-guide?&#a)
+per the new default listed in the doc team guide [section A:](./dev-doc-doc-team-guide.md?&#a)
 
 **Background = /usr/share/backgrounds/mate/desktop/MATE-Stripes-Light.png
 horizontal gradient #31633A/#588C4B**

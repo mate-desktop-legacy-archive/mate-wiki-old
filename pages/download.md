@@ -4,21 +4,27 @@ Should you have issues relating to MATE installation, you may inquire in our [#m
 
 There are some prominent Linux distributions that include MATE in their official repositories:
 
-[![](./media/distros_big-archlinux.png)](http://www.archlinux.org/) Arch Linux |  [![](./media/distros_big-debian.png)](http://www.debian.org/)  Debian |  [![](./media/distros_big-fedora.png)](http://www.fedoraproject.org/)  Fedora |  [![](./media/distros_big-gentoo.png)](http://www.gentoo.org/)  Gentoo |  [![](./media/distros_big-linux-mint.png)](http://www.linuxmint.com/)  Linux Mint |  [![](./media/distros_big-opensuse.png)](http://www.opensuse.org/)  openSUSE |  [![](./media/distros_big-ubuntu.png)](http://www.ubuntu.com/)  Ubuntu  
----|---|---|---|---|---|---  
-  
+- [Arch Linux](http://www.archlinux.org/)
+- [Debian](http://www.debian.org/)
+- [Fedora](http://www.fedoraproject.org/)
+- [Gentoo](http://www.gentoo.org/)
+- [Linux Mint](http://www.linuxmint.com/)
+- [openSUSE](http://www.opensuse.org/)
+- [Ubuntu](http://www.ubuntu.com/)
+
 And also many others:
-[ALT Linux](http://en.altlinux.org/),
-[Mageia](http://www.mageia.org/),
-[PCLinuxOS](http://www.pclinuxos.com/get-pclinuxos/mate/),
-[PLD Linux](https://www.pld-linux.org/),
-[Point Linux](http://pointlinux.org/),
-[Sabayon](http://www.sabayon.org/),
-[Salix](http://www.salixos.org/),
-[Frugalware](https://www.frugalware.org/),
-[FreeBSD](https://www.freebsd.org/),
-[DragonflyBSD](https://www.dragonflybsd.org/),
-[NetBSD](https://www.netbsd.org/)
+
+- [ALT Linux](http://en.altlinux.org/)
+- [Mageia](http://www.mageia.org/)
+- [PCLinuxOS](http://www.pclinuxos.com/get-pclinuxos/mate/)
+- [PLD Linux](https://www.pld-linux.org/)
+- [Point Linux](http://pointlinux.org/)
+- [Sabayon](http://www.sabayon.org/)
+- [Salix](http://www.salixos.org/)
+- [Frugalware](https://www.frugalware.org/)
+- [FreeBSD](https://www.freebsd.org/)
+- [DragonflyBSD](https://www.dragonflybsd.org/)
+- [NetBSD](https://www.netbsd.org/)
 
 To install MATE in these distributions, you should use their package manager.
 
@@ -27,8 +33,7 @@ To install MATE in these distributions, you should use their package manager.
 MATE 1.8.1 is currently packaged for Debian 8 (jessie). MATE 1.12 is also
 available on Debian testing (“Stretch”) and unstable (“Sid”).
 
-_(If_`sudo` _is unavailable on your system, simply omit it and use a root
-shell)_  
+_(If_`sudo` _is unavailable on your system, simply omit it and use a root shell)_
 First make sure your package list is up-to-date by running:
 
     
@@ -51,7 +56,7 @@ To install MATE, choose **one** of the apt-get options below.
 
 ## Ubuntu
 
-  * [Replace Unity by MATE](./replace_unity_by_mate)
+  * [Replace Unity by MATE](./replace_unity_by_mate.md)
 
 ### Ubuntu 14.04 LTS (Trusty Tahr)
 
@@ -184,31 +189,24 @@ building.
 
 # Red Hat Enterprise Linux 7
 
-MATE is available through the [Extra Packages for Enterprise Linux
-(EPEL)](https://fedoraproject.org/wiki/EPEL
-"https://fedoraproject.org/wiki/EPEL") repository, maintained by the Fedora
-Project. This should work on CentOS 7 as well, and any other compatible
-derivatives.
+MATE is available through the [Extra Packages for Enterprise Linux (EPEL)](https://fedoraproject.org/wiki/EPEL "https://fedoraproject.org/wiki/EPEL") repository, maintained by the Fedora Project. This should work on CentOS 7 as well, and any other compatible derivatives.
 
 After you install the epel-release-7*.rpm package to add the EPEL repository
 to Yum, you can install MATE with the following command:
 
-    
-    
+
     yum groupinstall mate-desktop
 
 If you install this on a minimal system without an existing GUI configured
 (such as a GNOME or KDE desktop), you might want to install the X Window
 System group as well for local graphical logins:
 
-    
-    
+
     yum groupinstall "X Window System"
 
 you may also want to change the default systemd target to graphical:
 
-    
-    
+
     systemctl set-default graphical.target
 
 # Fedora
@@ -217,7 +215,7 @@ MATE desktop is included in Fedora and available for all current releases.
 There are multiple ways to get MATE with Fedora.
 
   1. If you have Fedora already installed, use the following command:
-    
+
         yum groupinstall mate-desktop
 
 New with fedora 21
@@ -228,21 +226,18 @@ New with fedora 21
 
   3. Under Fedora-Spins you will find the mate-compiz livecd image <https://spins.fedoraproject.org/>
 
-Older releases (f20) you can dowload via torrent.
-<http://torrents.fedoraproject.org/>
+Older releases (f20) you can dowload via torrent.  <http://torrents.fedoraproject.org/>
 
-The Fedora MATE maintainer, also maintains [here](./fedora_additional_repository).
+The Fedora MATE maintainer, also maintains [here](./fedora_additional_repository.md).
 
-Note: Don't choose fedora workstation, this is nothing more than a gnome
-livecd ;)
+Note: Don't choose fedora workstation, this is nothing more than a gnome livecd ;)
 
 # Gentoo
 
 MATE is available from the official repositories. See
 <http://wiki.gentoo.org/wiki/MATE>.
 
-    
-    
+
     emerge -av mate
 
 For x86, MATE is ~arch keyworded so if you run a stable system make sure to
@@ -250,18 +245,14 @@ add the necessary entries to package.keywords.
 
 # Arch Linux
 
-See the [Arch Linux Package Repository](./archlinux_custom_repo) page.
+See the [Arch Linux Package Repository](./archlinux_custom_repo.md) page.
 
 To install the base MATE components simply install the **mate** group.
 
-    
-    
     pacman  -Syy mate
 
 To install all of MATE install the **mate** and **mate-extra** groups.
 
-    
-    
     pacman  -Syy mate mate-extra
 
 # openSUSE
@@ -299,7 +290,7 @@ task-mate`
 Due to dependencies of some other applications to deprecated MATE packages,
 MATE 1.8 will not be provided as an update or backport to avoid possible
 crashes/problems. However, there is an unsupported, unofficial repository
-providing MATE 1.8 version. Please read [below section](./download#mageia_3)
+providing MATE 1.8 version. Please read [below section](./download#mageia_3.md)
 and use same commands to add the repository.
 
 ## Mageia 3
@@ -493,4 +484,4 @@ You can download MATE source code tarballs on pub.mate-desktop.org:
 
 # GIT Repository
 
-Get from <https://github.com/mate-desktop/>. See [Building](./building) for more information.
+Get from <https://github.com/mate-desktop/>. See [Building](./building.md) for more information.

@@ -4,7 +4,7 @@ This page contains some tips to help to debug MATE issues
 
 ## mate-file-manager (caja)
 
-See [Caja debug](./applications-caja#debug).
+See [Caja debug](./applications-caja.md#Debug).
 
 ```bash
 gdb caja `pidof caja`

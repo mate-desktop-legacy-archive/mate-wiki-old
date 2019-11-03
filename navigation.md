@@ -12,7 +12,6 @@
 
 [gimmick:theme](yeti)
 
-
 <!--
   -- Navigation
   -- (Read: http://dynalon.github.io/mdwiki/#!quickstart.md#Adding_a_navigation)
@@ -20,8 +19,8 @@
 [Home](pages/Home.md)
 [About](pages/about.md)
 [Download](pages/download.md)
-  -->
 [Documentation](pages/docs.md)
+  -->
 
 <!-- A more complex navigation example: ----------------------------------------
 [Support]()
@@ -46,15 +45,15 @@
 <!--
   -- Change the Language
   -- Could be useful when there's more than one language wiki.
-  -->
 
 [Change the Language]()
 
   * [English (United States)](/en_US/)
   * [简体中文](/zh_CN/)
+  -->
 
 <!--
   -- Let the user choose a theme
   -- (Read: http://dynalon.github.io/mdwiki/#!quickstart.md#Adding_a_navigation)
-  -->
 [gimmick:themechooser](Choose theme)
+  -->

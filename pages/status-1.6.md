@@ -6,7 +6,7 @@ Status of ongoing development of the 1.6 release of Mate.
 
 _Note:_ Packages are listed in build order.
 
-Core Packages |  release |  [g_settings](./mateconf_to_gsettings) |  [deprecations](./deprecated_code) |  [features](./roadmap)
+Core Packages |  release |  [g_settings](./mateconf_to_gsettings.md) |  [deprecations](./deprecated_code.md) |  [features](./roadmap.md)
 ---|---|---|---|---
 [mate-common](https://github.com/mate-desktop/mate-common) |  1.5.1 |  No Use |  None |
 [mate-doc-utils](https://github.com/mate-desktop/mate-doc-utils) |  1.5.0 |  No Use |  None |
@@ -36,7 +36,7 @@ Core Packages |  release |  [g_settings](./mateconf_to_gsettings) |  [deprecatio
 [mate-media](https://github.com/mate-desktop/mate-media) |  1.5.1 |  Done |  Done |
 [mate-power-manager](https://github.com/mate-desktop/mate-power-manager) |  1.5.1 |  Done |  None |
 [mate-system-monitor](https://github.com/mate-desktop/mate-system-monitor) |  1.5.1 |  Done | Done |
-Extra Packages |  release |  [g_settings](./mateconf_to_gsettings) |  [deprecations](./deprecated_code) |  [features](./roadmap)
+Extra Packages |  release |  [g_settings](./mateconf_to_gsettings) |  [deprecations](./deprecated_code.md) |  [features](./roadmap.md)
 [caja-dropbox](https://github.com/mate-desktop/caja-dropbox) |  |  No use |  |
 [mate-applets](https://github.com/mate-desktop/mate-applets) |  1.5.1 |  _stefano-k_ |  |
 [mate-bluetooth](https://github.com/mate-desktop/mate-bluetooth) |  1.5.0 |  Done |  None |
@@ -67,7 +67,7 @@ Extra Packages |  release |  [g_settings](./mateconf_to_gsettings) |  [deprecati
 
 Sometimes our purpose in life is only to serve as a warning to others.
 
-Package |  [Status](./building-1.6)
+Package |  [Status](./building-1.6.md)
 ---|---
 [ffmpegthumbnailer-caja](https://github.com/mate-desktop/ffmpegthumbnailer-caja) |  Removed
 [libmate](https://github.com/mate-desktop/libmate) |  Removed

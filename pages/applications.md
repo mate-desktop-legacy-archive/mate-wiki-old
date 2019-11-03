@@ -16,19 +16,19 @@ Icon in MATE |  GNOME 2.32 |  MATE |  Translation to English |  Type
 ![](media/zip.png)| File Roller (file-roller)| Engrampa (engrampa)| clip together| File archive manager
 ![](media/mateconf.png)| GConf (gconftool-2, gconf-editor)| MateConf (mateconftool-2, mateconf-editor)|  | DE configuration system
 ![](media/text-editor.png)| Gedit (gedit)| Pluma (pluma)| pen| Text editor
-![](media/marco.png)| Metacity (metacity)| [Marco (marco)](./applications-marco)| framework, frame| Window manager
-![](media/system-file-manager.png)| Nautilus (nautilus)| [Caja (caja)](./applications-caja)| box| File manager
+![](media/marco.png)| Metacity (metacity)| [Marco (marco)](./applications-marco.md)| framework, frame| Window manager
+![](media/system-file-manager.png)| Nautilus (nautilus)| [Caja (caja)](./applications-caja.md)| box| File manager
 ![](media/applets-screenshooter.png)| Take Screenshot (gnome-screenshot)| Take Screenshot (mate-screenshot)|  | Screen capture tool
 ![](media/terminal.png)| Terminal (gnome-terminal)| Terminal (mate-terminal)|  | Command-line interface shell
 ![](media/matedialog.png)| Zenity (zenity)| MateDialog (matedialog)|  | GTK+ command-line dialog boxes
 
 ## Applets
 
-Icon in MATE |  GNOME 2.32 |  MATE |  Translation to English |  Type
+Icon in MATE |  GNOME 2.32 |  MATE Translation to English |  Type
 ---|---|---|---|---
 ![](media/mateweather.png)| gweather| mateweather| Panel weather applet
 ![](media/mate-invest-applet.png)| gnome-invest-applet| mate-invest-applet| Applet to track stocks
-![](media/mate-netspeed-applet.png)| gnome-netspeed-applet| [mate-netspeed-applet](./docs-mate-netspeed)| View internet speed
+![](media/mate-netspeed-applet.png)| gnome-netspeed-applet| [mate-netspeed-applet](./docs-mate-netspeed.md)| View internet speed
 ![](media/mate-inhibit-applet.png)| gnome-inhibit-applet| mate-inhibit-applet| Allows user to inhibit automatic power saving
 ![](media/user-trash-full.png)| gnome-trash-applet| mate-trash-applet| Shortcut to Trash
 ![](media/mate-panel-notification-area.png)| gnome-panel-notification-area| mate-panel-notification-area| Area where notification icons appear
@@ -36,5 +36,3 @@ Icon in MATE |  GNOME 2.32 |  MATE |  Translation to English |  Type
 ![](media/mate-panel-window-menu.png)| gnome-panel-window-menu| mate-panel-window-menu| Switch between windows using a menu
 ![](media/mate-panel-workspace-switcher.png)| gnome-panel-workspace-switcher| mate-panel-workspace-switcher| Applet to switch between workspaces
 ![](media/mate-sticky-notes-applet.png)| gnome-sticky-notes-applet| mate-sticky-notes-applet| Create, view and manage sticky notes on the desktop
-
-![FIXME](images/smileys/fixme.gif) : The list is incomplete.

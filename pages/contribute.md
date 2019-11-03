@@ -71,15 +71,15 @@ This is a list of useful links.
 
 ### MATE
 
-  * [Deprecated code](./deprecated_code)
+  * [Deprecated code](./deprecated_code.md)
 
-  * [Replace MateConf with GSettings](./mateconf_to_gsettings)
+  * [Replace MateConf with GSettings](./mateconf_to_gsettings.md)
 
-  * [Replace MateCorba with DBus](./matecorba_to_dbus)
+  * [Replace MateCorba with DBus](./matecorba_to_dbus.md)
 
-  * [Support systemd-logind](./systemd-logind)
+  * [Support systemd-logind](./systemd-logind.md)
 
-  * [MATE 1.6 build order](./building-1.6)
+  * [MATE 1.6 build order](./building-1.6.md)
 
 ## Patches
 
