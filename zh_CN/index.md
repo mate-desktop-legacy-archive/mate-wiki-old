@@ -1,6 +1,6 @@
-Welcome to [Mate Desktop Environment](http://www.mate-desktop.org/) wiki!
+欢迎来到 [Mate 桌面环境](https://wiki.mate-desktop.dev/) 维基!
 
-## Documentation
+## 文档 
 
   * [Installation](./pages/download.md)
 
@@ -16,13 +16,13 @@ Welcome to [Mate Desktop Environment](http://www.mate-desktop.org/) wiki!
 
   * [Compiz](./pages/compiz.md)
 
-## Support
+## 支持
 
   * [IRC](./pages/irc.md): Join #mate channel on irc.freenode.net ([Webchat](http://webchat.freenode.net?randomnick=1&channels=mate&prompt=1))
 
   * [Issue tracker](https://github.com/mate-desktop/), [FAQ](./pages/faq.md), [Known issues](./pages/known_issues.md)
 
-## Development
+## 开发
 
   * [MATE Development](./pages/dev-doc.md), [Roadmap](./pages/roadmap.md)
 

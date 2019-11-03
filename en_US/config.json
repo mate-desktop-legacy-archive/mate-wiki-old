@@ -1,7 +1,7 @@
 {
-  "additionalFooterText": "All content and images &copy; by Your Name Goes Here&nbsp;",
+  "additionalFooterText": "All content and images &copy; by Mate Team. <br/>",
   "anchorCharacter": "#",
   "lineBreaks": "gfm",
-  "title": "Your wiki name",
-  "useSideMenu": true
+  "title": "MATE Desktop Environment WIKI",
+  "useSideMenu": false
 }

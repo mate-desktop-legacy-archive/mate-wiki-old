@@ -1,0 +1,31 @@
+# Debug MATE
+
+This page contains some tips to help to debug MATE issues
+
+## mate-file-manager (caja)
+
+See [Caja debug](./applications-caja#debug).
+
+```bash
+gdb caja `pidof caja`
+```
+
+## mate-screensaver
+
+```bash
+killall mate-screensaver
+mate-screensaver --debug
+```
+
+## mate-settings-daemon
+
+```bash
+killall mate-settings-daemon
+mate-settings-daemon --no-daemon --debug
+```
+
+## mate-window-manager (marco)
+
+```bash
+MARCO_DEBUG=1 marco --replace
+```

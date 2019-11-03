@@ -3,7 +3,8 @@
   -- Do NOT remove the leading `#` character.
   -->
 
-# MATE Desktop Environment Wiki
+# Mate 桌面环境维基
+
 
 <!--
   -- Default theme
@@ -21,11 +22,10 @@
 [About](pages/about.md)
 [Download](pages/download.md)
   -->
-[Documentation](pages/docs.md)
 
 <!-- A more complex navigation example: ----------------------------------------
-[Support]()
-[Development]()
+
+[Menu Item 1]()
 
   * # SubMenu Heading 1
   * [SubMenu Item 1](pages/subitem1.md)
@@ -46,15 +46,16 @@
 <!--
   -- Change the Language
   -- Could be useful when there's more than one language wiki.
-  -->
 
 [Change the Language]()
 
   * [English (United States)](/en_US/)
   * [简体中文](/zh_CN/)
+  -->
 
 <!--
   -- Let the user choose a theme
   -- (Read: http://dynalon.github.io/mdwiki/#!quickstart.md#Adding_a_navigation)
-  -->
+
 [gimmick:themechooser](Choose theme)
+  -->
