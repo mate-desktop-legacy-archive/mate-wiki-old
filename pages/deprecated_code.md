@@ -7,13 +7,13 @@ If you want to fix a deprecation, fill out an issue on
 
 ## Lists
 
-  * **GTK+** : <http://developer.gnome.org/gtk/stable/api-index-deprecated.html>
+  * **GTK+** : <https://developer.gnome.org/gtk/stable/api-index-deprecated.html>
 
-  * **GDK** : <http://developer.gnome.org/gdk/stable/api-index-deprecated.html>
+  * **GDK** : <https://developer.gnome.org/gdk/stable/api-index-deprecated.html>
 
-  * **gdk-pixbuf** : <http://developer.gnome.org/gdk-pixbuf/stable/api-index-deprecated.html>
+  * **gdk-pixbuf** : <https://developer.gnome.org/gdk-pixbuf/stable/api-index-deprecated.html>
 
-  * **GLIB** : <http://developer.gnome.org/glib/stable/api-index-deprecated.html>
+  * **GLIB** : <https://developer.gnome.org/glib/stable/api-index-deprecated.html>
 
 ## Status
 
@@ -75,13 +75,13 @@ We want to support backwards compatibility.
 
 Say we have this obsolete constant, _GTK_CHECK_CAST_ , and we need to change
 it to _G_TYPE_CHECK_INSTANT_CAST_. Since the
-[documentation](http://developer.gnome.org/gtk/2.24/gtk-Types.html#GTK-CHECK-CAST:CAPS)
+[documentation](https://developer.gnome.org/gtk/2.24/gtk-Types.html#GTK-CHECK-CAST:CAPS)
 does not state the version in which the code became deprecated, we
 can simply change _GTK_CHECK_CAST_ to _G_TYPE_CHECK_INSTANT_CAST_.
 
 On other hand, say we have this obsolete function, _g_format_size_for_display_
 , and we want to change it to _g_format_size_. Since the
-[documentation](http://developer.gnome.org/glib/2.30/glib-Miscellaneous-Utility-Functions.html#g-format-size-for-display)
+[documentation](https://developer.gnome.org/glib/2.30/glib-Miscellaneous-Utility-Functions.html#g-format-size-for-display)
 states that the code has been
 marked deprecated since version 2.30, we must be careful.
 
@@ -116,9 +116,9 @@ The following should be included at compile time, or using autogen.sh:
     -DGDK_DISABLE_SINGLE_INCLUDES
     -DGTK_DISABLE_SINGLE_INCLUDES
 
-source: <http://developer.pidgin.im/wiki/GTK3>
+source: <https://developer.pidgin.im/wiki/GTK3>
 
-Also see [GNOME: Remove deprecated GTK+ symbols](http://live.gnome.org/GnomeGoals/RemoveDeprecatedSymbols/GTK%2B)
+Also see [GNOME: Remove deprecated GTK+ symbols](https://live.gnome.org/GnomeGoals/RemoveDeprecatedSymbols/GTK%2B)
 
 Alternatively, if you would like to get a list of deprecated symbols without
 having to compile, you can use the following command:

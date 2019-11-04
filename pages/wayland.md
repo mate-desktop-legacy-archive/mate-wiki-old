@@ -1,6 +1,6 @@
 # Wayland
 
-<http://wayland.freedesktop.org/>
+<https://wayland.freedesktop.org/>
 
 > Wayland is a protocol for a compositor to talk to its clients as well as a C
 library implementation of that protocol. The compositor can be a standalone
@@ -13,7 +13,7 @@ a Wayland compositor. Weston can run as an X client or under Linux KMS and
 ships with a few demo clients. The Weston compositor is a minimal and fast
 compositor and is suitable for many embedded and mobile use cases.
 
-  * Documentation: <http://wayland.freedesktop.org/docs/html/>
+  * Documentation: <https://wayland.freedesktop.org/docs/html/>
 
 > Wayland support for MATE is currently targeted for some future release.
 Though Wayland itself is relatively stable (but still under a lot of active

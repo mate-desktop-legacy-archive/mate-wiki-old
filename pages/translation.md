@@ -10,9 +10,9 @@ The following basic suggestions might be useful for translators:
 
   * Use machine translation and translation memories _only_ as suggestions. Never copy machine translated stuff outright. Quality matters!
 
-  * Install and use a spellchecker and, if available, a grammar tool like [LanguageTool](http://www.languagetool.org/). If poedit doesn't provide a spellchecker for your language, extract translated strings with grep msgstr filename.po > file.txt and open it with LibreOffice.
+  * Install and use a spellchecker and, if available, a grammar tool like [LanguageTool](https://www.languagetool.org/). If poedit doesn't provide a spellchecker for your language, extract translated strings with grep msgstr filename.po > file.txt and open it with LibreOffice.
 
-  * Keep in mind that [Wiktionary](http://www.wiktionary.org/) is a good resource.
+  * Keep in mind that [Wiktionary](https://www.wiktionary.org/) is a good resource.
 
   * If you 're not sure, leave the old translation.
 
@@ -24,7 +24,7 @@ The following basic suggestions might be useful for translators:
 
 ## Developers
 
-  * Install transifex-client ([documentation](http://help.transifex.com/features/client/index.html)).
+  * Install transifex-client ([documentation](https://help.transifex.com/features/client/index.html)).
 
   * Create a `.tx/config` file for the project like this:
 

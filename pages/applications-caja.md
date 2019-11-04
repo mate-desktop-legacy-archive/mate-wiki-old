@@ -1,6 +1,6 @@
 # Caja
 
-**Caja** is the MATE file manager, based on [Nautilus](http://live.gnome.org/Nautilus) 2.32.
+**Caja** is the MATE file manager, based on [Nautilus](https://live.gnome.org/Nautilus) 2.32.
 
   * [Report a bug](https://github.com/mate-desktop/caja/issues)
 
@@ -52,7 +52,7 @@ The available log domains are these:
 
 ### Caja internals
 
-This section is a fork of [Nautilus development page](http://live.gnome.org/Nautilus/Development/Nautilus).
+This section is a fork of [Nautilus development page](https://live.gnome.org/Nautilus/Development/Nautilus).
 
 ```
     |-- ChangeLog                      # what happend (also see svn log)
@@ -93,7 +93,7 @@ Modern computers are equiped with sata or scsi controller and drives which
 support [hotplugging](https://en.wikipedia.org/wiki/Hot_swapping). This means that for every
 hotpluggable disk it's partitions will show under the devices section in the
 Caja side-pane. Caja does not govern this and instead asks
-[Udisks2](http://www.freedesktop.org/wiki/Software/udisks/) which partitions to
+[Udisks2](https://www.freedesktop.org/wiki/Software/udisks/) which partitions to
 display in `Devices`.
 
 There are situation where you do not want partitions to show in the devices

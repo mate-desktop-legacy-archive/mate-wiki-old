@@ -34,7 +34,7 @@ and you can use the following example applet to learn how this will works.
     #!/usr/bin/env python
      
     # this code is based on example appet by Vincent Untz for GNOME Panel 3
-    # http://git.gnome.org/browse/gnome-panel/commit/?id=5ad4d9e
+    # https://git.gnome.org/browse/gnome-panel/commit/?id=5ad4d9e
      
     # ensure we are using Gtk 2, not Gtk3
     # this will print a warning but everything should work
@@ -95,7 +95,7 @@ and you can use the following example applet to learn how this will works.
 
 ### GSettings in Python
 
-Read [this guide](http://www.micahcarrick.com/gsettings-python-gnome-3.html) to see how use
+Read [this guide](https://www.micahcarrick.com/gsettings-python-gnome-3.html) to see how use
 GIO/GSettings in Python with introspection. You can use the following function
 to have the GSettings path of the current applet:
 
@@ -121,7 +121,7 @@ using mateapplet and pygtk.
     #!/bin/sh
      
     # adapted from
-    # http://git.gnome.org/browse/pygobject/tree/pygi-convert.sh
+    # https://git.gnome.org/browse/pygobject/tree/pygi-convert.sh
      
     if [ -n "$1" ]; then
         FILES_TO_CONVERT="$@"

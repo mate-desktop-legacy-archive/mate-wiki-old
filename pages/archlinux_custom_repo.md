@@ -1,7 +1,7 @@
 # Arch Linux Package Repository
 
-MATE is supported on i686 and x84_64 [Arch Linux](http://www.archlinux.org)
-and on armv6h (Raspberry Pi) and armv7h for [Arch Linux ARM](http://archlinuxarm.org/).
+MATE is supported on i686 and x84_64 [Arch Linux](https://www.archlinux.org)
+and on armv6h (Raspberry Pi) and armv7h for [Arch Linux ARM](https://archlinuxarm.org/).
 If you encounter any issues please raise an issue.
 
   * <https://github.com/mate-desktop>
@@ -65,7 +65,7 @@ mate-extra groups.
 The following is also available via the AUR and integrates with MATE but the
 package is not maintained by the MATE team.
 
-  * [mintmenu](http://aur.archlinux.org/packages/mintmenu/) \- Linux Mint Menu for MATE.
+  * [mintmenu](https://aur.archlinux.org/packages/mintmenu/) \- Linux Mint Menu for MATE.
 
 You can install the packages above individually.
 
@@ -178,18 +178,18 @@ It is recommended that you use Network Manager for managing networks in MATE.
 
 ## Bluetooth
 
-Bluetooth support for MATE 1.8 is [pending the completion of a new version of Blueman](http://mate-desktop.org/blog/2014-03-11-mate-desktop-singing-the-bluez/).
+Bluetooth support for MATE 1.8 is [pending the completion of a new version of Blueman](https://mate-desktop.org/blog/2014-03-11-mate-desktop-singing-the-bluez/).
 Details will be added here shortly. There are some experimental
 Bluetooth utilities for MATE in the AUR:
 
-  * [blueman-bluez5-git](http://aur.archlinux.org/packages/blueman-bluez5-git/) \- A GTK+ Bluetooth Manager. **MATE will adopt as the official Bluetooth utility in the future but it is under actively development and not everything works right now.**
+  * [blueman-bluez5-git](https://aur.archlinux.org/packages/blueman-bluez5-git/) \- A GTK+ Bluetooth Manager. **MATE will adopt as the official Bluetooth utility in the future but it is under actively development and not everything works right now.**
 
-  * [mate-bluetooth-bluez5-git](http://aur.archlinux.org/packages/mate-bluetooth-bluez5-git/) \- A collection of Bluetooth utilities and modules for MATE. **Now deprecated by the MATE team but this version can pair device and has been successfully used to tether an Android phone via PAN.**
+  * [mate-bluetooth-bluez5-git](https://aur.archlinux.org/packages/mate-bluetooth-bluez5-git/) \- A collection of Bluetooth utilities and modules for MATE. **Now deprecated by the MATE team but this version can pair device and has been successfully used to tether an Android phone via PAN.**
 
 ## PulseAudio and GStreamer
 
-MATE supports two audio backends, [PulseAudio](http://www.pulseaudio.org)
-and [GStreamer](http://www.gstreamer.net).
+MATE supports two audio backends, [PulseAudio](https://www.pulseaudio.org)
+and [GStreamer](https://www.gstreamer.net).
 By default, the PulseAudio backend is installed but if you want to
 switch to the GStreamer backend, do the following:
 
@@ -285,7 +285,7 @@ development branch. The GTK2 builds are recommended as the GTK3 are considered
 experimental.
 
 **WARNING!** \- If you have previsouly enabled the old `[mate-unstable-gtk3]`
-repository available from <http://pkgbuild.com/~flexiondotorg/mate-unstable-gtk3/1.9/> then **STOP HERE!**
+repository available from <https://pkgbuild.com/~flexiondotorg/mate-unstable-gtk3/1.9/> then **STOP HERE!**
 
   * The new `[mate-unstable-dual]` is not compatible with `[mate-unstable-gtk3]` and I have no intention of explaining how to migrate, sorry ![:-\(](images/smileys/icon_sad.gif)
 
@@ -297,7 +297,7 @@ in`pacman.conf`** so put it above `[testing]`.
 ```
     [mate-unstable-dual]
     SigLevel = Optional TrustAll
-    Server = http://pkgbuild.com/~flexiondotorg/mate-unstable-dual/1.9/$arch
+    Server = https://pkgbuild.com/~flexiondotorg/mate-unstable-dual/1.9/$arch
 ```
 
 ## Upgrading MATE 1.8 to MATE 1.9 GTK2
@@ -400,4 +400,4 @@ Arch Linux and some of it's derivatives also have wiki pages about MATE.
 
   * <https://wiki.archlinux.org/index.php/MATE>
 
-  * <http://wiki.manjaro.org/index.php?title=MATE_Desktop_Environment>
+  * <https://wiki.manjaro.org/index.php?title=MATE_Desktop_Environment>

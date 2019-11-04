@@ -6,7 +6,7 @@ things. Follow each package guide to get a clean install.
 
 _Remember, compiling can be stressful._
 
-Example: <http://i.imgur.com/mf8dG.jpg>
+Example: <https://i.imgur.com/mf8dG.jpg>
 
 _Do not compile as root!_
 

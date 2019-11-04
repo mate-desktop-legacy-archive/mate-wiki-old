@@ -11,7 +11,7 @@
 The fix is present in Ubuntu Precise and in Linux Mint Lisa. In Oneiric, you
 can change the GTK theme (right click on desktop ⇒ change background to open
 the preferences window), or download the fixed GTK debs from Linux Mint
-repository [here](http://packages.linuxmint.com/pool/upstream/g/gtk+2.0/) and install them
+repository [here](https://packages.linuxmint.com/pool/upstream/g/gtk+2.0/) and install them
 manyally with `dpkg`.
 
 ## QT apps not styled
@@ -32,7 +32,7 @@ Here 's some extra, if you wish to work on resolving this problem:
 
   * [QTBUG-5545](https://bugreports.qt-project.org/browse/QTBUG-5545)
 
-  * [qt/src/gui/styles/qgtkstyle_p.cpp](http://qt.gitorious.org/qt/qt/blobs/72c91efce8ea1cb5daf9a6f48d19b414fe4e6d7a/src/gui/styles/qgtkstyle_p.cpp#line680) source where GTK styles are read, looks only deprecated GConf
+  * [qt/src/gui/styles/qgtkstyle_p.cpp](https://qt.gitorious.org/qt/qt/blobs/72c91efce8ea1cb5daf9a6f48d19b414fe4e6d7a/src/gui/styles/qgtkstyle_p.cpp#line680) source where GTK styles are read, looks only deprecated GConf
 
 For the icon theme (in particular the cursor) to be applied in QT apps, it may
 not be enough to use qtconfig. You might need to create the file

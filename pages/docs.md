@@ -46,7 +46,7 @@
 
   * [ Desktop Guide](docs-devel-desktop.md)
 
-  * [ Wallpapers](http://wiki.mate-desktop.org/mate-backgrounds)
+  * [ Wallpapers](https://wiki.mate-desktop.org/mate-backgrounds)
 
 ## Notifications
 

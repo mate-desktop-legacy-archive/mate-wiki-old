@@ -92,7 +92,7 @@ manager.
 
 Run compiz fusion icon and in the notification earea you should have a new
 icon in which you can select compiz as the window manager. See the
-[compiz-fusion-icon](http://wiki.compiz.org/CompizFusionIcon) documentation for more info.
+[compiz-fusion-icon](https://wiki.compiz.org/CompizFusionIcon) documentation for more info.
 
 ### Compiz 0.9
 

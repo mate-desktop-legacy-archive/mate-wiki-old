@@ -5,11 +5,11 @@ used on Linux distributions.
 >  This provides a number of new features, but also requires updating of the
 Desktop Environment running on it, in a few ways.
 
-  * <http://www.freedesktop.org/wiki/Software/systemd/writing-desktop-environments>
+  * <https://www.freedesktop.org/wiki/Software/systemd/writing-desktop-environments>
 
-  * <http://www.freedesktop.org/wiki/Software/systemd/writing-display-managers>
+  * <https://www.freedesktop.org/wiki/Software/systemd/writing-display-managers>
 
-  * <http://fedoraproject.org/wiki/Features/ckremoval>
+  * <https://fedoraproject.org/wiki/Features/ckremoval>
 
 ## Status
 

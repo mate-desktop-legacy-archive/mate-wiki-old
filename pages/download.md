@@ -1,26 +1,26 @@
 # Install
 
-Should you have issues relating to MATE installation, you may inquire in our [#mate](http://webchat.freenode.net?randomnick=1&channels=mate&prompt=1) IRC channel on the freenode network.
+Should you have issues relating to MATE installation, you may inquire in our [#mate](https://webchat.freenode.net?randomnick=1&channels=mate&prompt=1) IRC channel on the freenode network.
 
 There are some prominent Linux distributions that include MATE in their official repositories:
 
-- [Arch Linux](http://www.archlinux.org/)
-- [Debian](http://www.debian.org/)
-- [Fedora](http://www.fedoraproject.org/)
-- [Gentoo](http://www.gentoo.org/)
-- [Linux Mint](http://www.linuxmint.com/)
-- [openSUSE](http://www.opensuse.org/)
-- [Ubuntu](http://www.ubuntu.com/)
+- [Arch Linux](https://www.archlinux.org/)
+- [Debian](https://www.debian.org/)
+- [Fedora](https://www.fedoraproject.org/)
+- [Gentoo](https://www.gentoo.org/)
+- [Linux Mint](https://www.linuxmint.com/)
+- [openSUSE](https://www.opensuse.org/)
+- [Ubuntu](https://www.ubuntu.com/)
 
 And also many others:
 
-- [ALT Linux](http://en.altlinux.org/)
-- [Mageia](http://www.mageia.org/)
-- [PCLinuxOS](http://www.pclinuxos.com/get-pclinuxos/mate/)
+- [ALT Linux](https://en.altlinux.org/)
+- [Mageia](https://www.mageia.org/)
+- [PCLinuxOS](https://www.pclinuxos.com/get-pclinuxos/mate/)
 - [PLD Linux](https://www.pld-linux.org/)
-- [Point Linux](http://pointlinux.org/)
-- [Sabayon](http://www.sabayon.org/)
-- [Salix](http://www.salixos.org/)
+- [Point Linux](https://pointlinux.org/)
+- [Sabayon](https://www.sabayon.org/)
+- [Salix](https://www.salixos.org/)
 - [Frugalware](https://www.frugalware.org/)
 - [FreeBSD](https://www.freebsd.org/)
 - [DragonflyBSD](https://www.dragonflybsd.org/)
@@ -179,9 +179,9 @@ project.
 Binary packages for Slackware 14.0, 14.1, 14.2, and future release
 (x86/x86_64) are located in
 
-  * <http://www.slackware.uk/msb/> (primary mirror) 
+  * <https://www.slackware.uk/msb/> (primary mirror) 
 
-  * <http://repo.ukdw.ac.id/msb/> (backup mirror)
+  * <https://repo.ukdw.ac.id/msb/> (backup mirror)
 
 People using Slackware-Current are advised to build the sources from master
 branch at <https://github.com/mateslackbuilds/msb> and read CURRENT.TXT prior
@@ -226,7 +226,7 @@ New with fedora 21
 
   3. Under Fedora-Spins you will find the mate-compiz livecd image <https://spins.fedoraproject.org/>
 
-Older releases (f20) you can dowload via torrent.  <http://torrents.fedoraproject.org/>
+Older releases (f20) you can dowload via torrent.  <https://torrents.fedoraproject.org/>
 
 The Fedora MATE maintainer, also maintains [here](./fedora_additional_repository.md).
 
@@ -235,7 +235,7 @@ Note: Don't choose fedora workstation, this is nothing more than a gnome livecd 
 # Gentoo
 
 MATE is available from the official repositories. See
-<http://wiki.gentoo.org/wiki/MATE>.
+<https://wiki.gentoo.org/wiki/MATE>.
 
 
     emerge -av mate
@@ -261,7 +261,7 @@ openSUSE users can install the MATE Desktop through YaST2 META Installer, we
 strongly suggest this method. Please visit the MATE Desktop Portal page in
 openSUSE wiki for further information.
 
-  * [openSUSE MATE Desktop Portal](http://en.opensuse.org/Portal:MATE)
+  * [openSUSE MATE Desktop Portal](https://en.opensuse.org/Portal:MATE)
 
 Besides installation instructions the MATE Desktop Portal on openSUSE wiki
 also provides other useful information!
@@ -306,7 +306,7 @@ To install MATE Desktop for your Mageia 3 system,
 
     
     
-     urpmi.addmedia --distrib 'http://tarakbumba.mageia.org.pl/$RELEASE/$ARCH'
+     urpmi.addmedia --distrib 'https://tarakbumba.mageia.org.pl/$RELEASE/$ARCH'
 
   * Use the code **exactly** seen as above. See about [ this post](https://forums.mageia.org/en/viewtopic.php?f=10&t=4867&start=125#p46058) for urpmi variables
 
@@ -320,20 +320,20 @@ MATE 1.6 packages are available in official stable repository; use _apt-get_
 or _synaptic_ to install _mate-default_ for reasonable set of packages, there
 's also _mate-minimal_ metapackage for those picky enough.
 
-[Centaurus](http://en.altlinux.org/ALT_Linux_7.0_Centaurus) the flagship ALT Linux
+[Centaurus](https://en.altlinux.org/ALT_Linux_7.0_Centaurus) the flagship ALT Linux
 distribution is MATE based in its 7.0 version; there's a somewhat minimalistic
-[starterkit](http://en.altlinux.org/Starterkits#main) too.
+[starterkit](https://en.altlinux.org/Starterkits#main) too.
 
 ## Sisyphus
 
-MATE packages are also available within [development repository](http://packages.altlinux.org/mate);
+MATE packages are also available within [development repository](https://packages.altlinux.org/mate);
 installation instructions are the same
-and there are weekly [Regular LiveCD](http://en.altlinux.org/Regular)
+and there are weekly [Regular LiveCD](https://en.altlinux.org/Regular)
 builds (these are 32- and 64-bit x86
 bootable/installable images supporting CD/Flash and BIOS/UEFI).
 
 ARMv7 (hardfloat) builds are
-[available](http://ftp.altlinux.org/pub/distributions/ALTLinux/Sisyphus/files/armh/) as
+[available](https://ftp.altlinux.org/pub/distributions/ALTLinux/Sisyphus/files/armh/) as
 well.
 
 # PLD Linux
@@ -341,7 +341,7 @@ well.
 MATE is present in [PLD Th](https://www.pld-linux.org/th), currently version is **1.8**
 
 You can install MATE desktop using 
-[metapackage-mate](http://git.pld-linux.org/packages/metapackage-mate) package:
+[metapackage-mate](https://git.pld-linux.org/packages/metapackage-mate) package:
 
     
     
@@ -359,7 +359,7 @@ and to install with some more extras:
 
 MATE Desktop is available in the FreeBSD Ports tree, and can be installed via
 the mate meta-port available on
-[FreshPorts](http://www.freshports.org/x11/mate/).
+[FreshPorts](https://www.freshports.org/x11/mate/).
 
 Installation is supported via the ports tree directly or the binary package
 repositories.
@@ -403,7 +403,7 @@ repositories.
 
 ## NetBSD
 
-Mate is avaible in pkgsrc and [pkgsrc-wip](http://pkgsrc.se/wip/mate) “mate” is a Meta-package
+Mate is avaible in pkgsrc and [pkgsrc-wip](https://pkgsrc.se/wip/mate) “mate” is a Meta-package
 
 In pkgsrc
 
@@ -473,14 +473,14 @@ avahi (multicast) traffic:
 
 # Cygwin
 
-MATE is available in the [official Cygwin distribution](http://cygwin.com/);
+MATE is available in the [official Cygwin distribution](https://cygwin.com/);
 install the `mate-session-manager` package and its
 dependencies with Cygwin setup.
 
 # Source code tarballs
 
 You can download MATE source code tarballs on pub.mate-desktop.org:
-<http://pub.mate-desktop.org/releases/>
+<https://pub.mate-desktop.org/releases/>
 
 # GIT Repository
 

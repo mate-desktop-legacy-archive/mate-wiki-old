@@ -35,7 +35,7 @@ build-mate-panel.sh
     version="1.1.0"
     package="mate-panel"
     # Get
-    wget -c http://pub.mate-desktop.org/releases/$release/$package-$version.tar.bz2
+    wget -c https://pub.mate-desktop.org/releases/$release/$package-$version.tar.bz2
     # Extract
     tar xvjf $package-$version.tar.bz2
     # Go to inside folder

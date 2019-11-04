@@ -13,7 +13,7 @@ now:[status:1.10](./status-1.10)_**
 Item | Value/Detail | Progress/Activity | Log
 ---|---|---|---
 **A** |  Defaults | Complete |  see thread below and [doc-team-guide](./dev-doc-doc-team-guide.md)
-_Default_ MATE artwork |  Theme “Menta” | Complete | [discussion](http://ml.mate-desktop.org/pipermail/mate-dev/2014-November/000308.html)
+_Default_ MATE artwork |  Theme “Menta” | Complete | [discussion](https://ml.mate-desktop.org/pipermail/mate-dev/2014-November/000308.html)
 **Section B** |  Original Source | Complete |  [doc-team-guide](./dev-doc-doc-team-guide.md)
 **Section C** |  Organization | In Progress | Log
 **Section D** |  Transifex | TBD | [doc-team-guide](./dev-doc-doc-team-guide.md)

@@ -10,9 +10,9 @@
 
   * [[RFC] gstreamer backend support for gstreamer-1.0](https://github.com/mate-desktop/mate-media/issues/9)
 
-  * <http://cgit.freedesktop.org/gstreamer/gstreamer/tree/docs/random/porting-to-1.0.txt>
+  * <https://cgit.freedesktop.org/gstreamer/gstreamer/tree/docs/random/porting-to-1.0.txt>
 
-  * <http://gstreamer.freedesktop.org/data/doc/gstreamer/head/manual/html/chapter-porting-1.0.html>
+  * <https://gstreamer.freedesktop.org/data/doc/gstreamer/head/manual/html/chapter-porting-1.0.html>
 
   * <https://live.gnome.org/GnomeGoals/PortToGstreamer1>
 

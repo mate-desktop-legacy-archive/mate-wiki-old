@@ -7,14 +7,14 @@
 
 <!--
   -- Default theme
-  -- (Read: http://dynalon.github.io/mdwiki/#!customizing.md#Theme_chooser)
+  -- (Read: https://dynalon.github.io/mdwiki/#!customizing.md#Theme_chooser)
   -->
 
 [gimmick:theme](yeti)
 
 <!--
   -- Navigation
-  -- (Read: http://dynalon.github.io/mdwiki/#!quickstart.md#Adding_a_navigation)
+  -- (Read: https://dynalon.github.io/mdwiki/#!quickstart.md#Adding_a_navigation)
 
 [Home](pages/Home.md)
 [About](pages/about.md)
@@ -54,6 +54,6 @@
 
 <!--
   -- Let the user choose a theme
-  -- (Read: http://dynalon.github.io/mdwiki/#!quickstart.md#Adding_a_navigation)
+  -- (Read: https://dynalon.github.io/mdwiki/#!quickstart.md#Adding_a_navigation)
 [gimmick:themechooser](Choose theme)
   -->

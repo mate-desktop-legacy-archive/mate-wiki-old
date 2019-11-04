@@ -34,19 +34,19 @@ back to [MATE Development](./dev-doc)
 
       * <https://wiki.gnome.org/Apps/Yelp/Mallard/Styles>
 
-      * <http://projectmallard.org/about/learn/>
+      * <https://projectmallard.org/about/learn/>
 
-      * <http://projectmallard.org/pipermail/mallard-list/2011-January/000065.html>
+      * <https://projectmallard.org/pipermail/mallard-list/2011-January/000065.html>
 
-      * <http://projectmallard.org/pipermail/mallard-list/2011-June/000094.html>
+      * <https://projectmallard.org/pipermail/mallard-list/2011-June/000094.html>
 
-      * <http://en.flossmanuals.net/introduction-to-mallard/yelp-tools/>
+      * <https://en.flossmanuals.net/introduction-to-mallard/yelp-tools/>
 
-      * <http://blogs.gnome.org/shaunm/files/2012/01/mallardcheatsheet.png>
+      * <https://blogs.gnome.org/shaunm/files/2012/01/mallardcheatsheet.png>
 
       * <https://wiki.ubuntu.com/Philbull/MallardIntro>
 
-      * <http://stackoverflow.com/questions/8917342/export-page-to-html>
+      * <https://stackoverflow.com/questions/8917342/export-page-to-html>
 
   * [MATE Development](./dev-doc)
 
@@ -111,11 +111,11 @@ please _fix_ it._**![=\)](./images/smileys/icon_smile2.gif)
 
   1. ~~Decide best method to divide and conquer workload-~~
 
-  2. ~~<http://wiki.mate-desktop.org/dev-doc> needs editing so there is a link~~
+  2. ~~<https://wiki.mate-desktop.org/dev-doc> needs editing so there is a link~~
 
-  3. ~~to this page(this document)<http://wiki.mate-desktop.org/dev-doc:doc-team-guide> and it needs a link~~
+  3. ~~to this page(this document)<https://wiki.mate-desktop.org/dev-doc:doc-team-guide> and it needs a link~~
 
-  4. ~~to this page<http://wiki.mate-desktop.org/status:doc-team> for tracking the status.~~
+  4. ~~to this page<https://wiki.mate-desktop.org/status:doc-team> for tracking the status.~~
 
   5. Mate Doc Team How to contribute examples/explanation
 
@@ -168,7 +168,7 @@ please _fix_ it._**![=\)](./images/smileys/icon_smile2.gif)
 
   2. M-U-G can be used in dokuwiki(wiki.mate-desktop.org)
 
-    1. need to make sure the info already @ [wiki.mate-desktop.org/docs](http://wiki.mate-desktop.org/docs) is incorporated into/covered by the M-U-G
+    1. need to make sure the info already @ [wiki.mate-desktop.org/docs](https://wiki.mate-desktop.org/docs) is incorporated into/covered by the M-U-G
 
   3. M-U-G can be used in another sub-domain
 

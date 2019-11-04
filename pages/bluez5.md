@@ -4,7 +4,7 @@
 
 ## Links
 
-  * <http://www.bluez.org/bluez-5-api-introduction-and-porting-guide/>
+  * <https://www.bluez.org/bluez-5-api-introduction-and-porting-guide/>
 
   * <https://bugzilla.gnome.org/show_bug.cgi?id=685717>
 

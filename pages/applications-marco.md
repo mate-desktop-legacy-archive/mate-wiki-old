@@ -1,7 +1,7 @@
 # Marco
 
 **Marco** is the MATE window manager, based on
-[Metacity](http://live.gnome.org/Metacity) 2.32.
+[Metacity](https://live.gnome.org/Metacity) 2.32.
 
 
   * [Report a bug](https://github.com/mate-desktop/marco/issues/)

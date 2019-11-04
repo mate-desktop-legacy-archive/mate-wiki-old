@@ -8,7 +8,7 @@ This repository is maintained by Wolfgang Ulbrich, fedora MATE maintainer,
 Additional Mate repo which includes community packages and packages which
 aren't available in fedora repos.
 
-A full package list you will find here http://forums.mate-desktop.org/viewtopic.php?f=8&t=2957
+A full package list you will find here https://forums.mate-desktop.org/viewtopic.php?f=8&t=2957
 
     
     
@@ -26,7 +26,7 @@ which installs all packages except mate-mplayer (rpmfusion needed)
 Additional Mate repo which includes community packages and packages which
 aren't available in fedora repos.
 
-A full package list you will find here. http://forums.mate-desktop.org/viewtopic.php?f=8&t=2883
+A full package list you will find here. https://forums.mate-desktop.org/viewtopic.php?f=8&t=2883
 
     
     

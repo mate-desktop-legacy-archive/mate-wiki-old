@@ -2,11 +2,11 @@
 
   * [Migration status](./status-1.6)
 
-  * [GNOME Goal: Gconf to GSettings migration](http://live.gnome.org/GnomeGoals/GSettingsMigration)
+  * [GNOME Goal: Gconf to GSettings migration](https://live.gnome.org/GnomeGoals/GSettingsMigration)
 
-  * [GSettings porting guide](http://developer.gnome.org/gio/stable/ch29.html)
+  * [GSettings porting guide](https://developer.gnome.org/gio/stable/ch29.html)
 
-  * [DConf (main GSettings backend)](http://live.gnome.org/dconf)
+  * [DConf (main GSettings backend)](https://live.gnome.org/dconf)
 
 ## Before you start
 
@@ -19,7 +19,7 @@ configuring that setting continues to update the value in both places.
 
 It is always a good idea to have a look at how others have handled similar
 problems before. An examplaric conversion can be found e.g. in the
-[gsettings-tutorial](http://git.gnome.org/browse/gnome-utils/log/?h=gsettings-tutorial) branch of
+[gsettings-tutorial](https://git.gnome.org/browse/gnome-utils/log/?h=gsettings-tutorial) branch of
 gnome-utils.
 
 You can see also the [commit](https://github.com/mate-desktop/mate-notification-daemon/commit/2d7e34441f4d33dc1edb5e9871b66b4977069bae)
@@ -53,33 +53,33 @@ writing values are just the key names, not the full path.
 
 Most people use MateConf via the high-level MateConfClient API. The
 corresponding API is the
-[GSettings](http://developer.gnome.org/gio/stable/GSettings.html) object. While not
+[GSettings](https://developer.gnome.org/gio/stable/GSettings.html) object. While not
 every MateConfClient function has a direct GSettings equivalent, many do:
 
 MateConfClient |  GSettings  
 ---|---  
-mateconf_client_get_default() |  no direct equivalent, instead you call [g_settings_new()](http://developer.gnome.org/gio/stable/GSettings.html#g-settings-new) for the schemas you use  
-mateconf_client_set() | [g_settings_set()](http://developer.gnome.org/gio/stable/GSettings.html#g-settings-set)  
-mateconf_client_get() | [g_settings_get()](http://developer.gnome.org/gio/stable/GSettings.html#g-settings-get)  
-mateconf_client_get_bool() | [g_settings_get_boolean()](http://developer.gnome.org/gio/stable/GSettings.html#g-settings-get-boolean)  
-mateconf_client_set_bool() | [g_settings_set_boolean()](http://developer.gnome.org/gio/stable/GSettings.html#g-settings-set-boolean)  
-mateconf_client_get_int() | [g_settings_get_int()](http://developer.gnome.org/gio/stable/GSettings.html#g-settings-get-int)  
-mateconf_client_set_int() | [g_settings_set_int()](http://developer.gnome.org/gio/stable/GSettings.html#g-settings-set-int)  
-mateconf_client_get_float() | [g_settings_get_double()](http://developer.gnome.org/gio/stable/GSettings.html#g-settings-get-double)  
-mateconf_client_set_float() | [g_settings_set_double()](http://developer.gnome.org/gio/stable/GSettings.html#g-settings-set-double)  
-mateconf_client_get_string() | [g_settings_get_string()](http://developer.gnome.org/gio/stable/GSettings.html#g-settings-get-string)  
-mateconf_client_set_string() | [g_settings_set_string()](http://developer.gnome.org/gio/stable/GSettings.html#g-settings-set-string)  
-mateconf_client_get_list() |  for string lists, see [g_settings_get_strv()](http://developer.gnome.org/gio/stable/GSettings.html#g-settings-get-strv), else see [g_settings_get_value()](http://developer.gnome.org/gio/stable/GSettings.html#g-settings-get-value) and [GVariant](http://developer.gnome.org/glib/stable/glib/glib-GVariant.html#GVariant) API  
-mateconf_client_set_list() |  for string lists, see [g_settings_set_strv()](http://developer.gnome.org/gio/stable/GSettings.html#g-settings-set-strv), else see [g_settings_set_value()](http://developer.gnome.org/gio/stable/GSettings.html#g-settings-set-value) and [GVariant](http://developer.gnome.org/glib/stable/glib/glib-GVariant.html#GVariant) API  
-mateconf_entry_get_is_writable() | [g_settings_is_writable()](http://developer.gnome.org/gio/stable/GSettings.html#g-settings-is-writable)  
-mateconf_client_notify_add() |  not required, the ["changed"](http://developer.gnome.org/gio/stable/GSettings.html#GSettings-changed) signal is emitted automatically  
+mateconf_client_get_default() |  no direct equivalent, instead you call [g_settings_new()](https://developer.gnome.org/gio/stable/GSettings.html#g-settings-new) for the schemas you use  
+mateconf_client_set() | [g_settings_set()](https://developer.gnome.org/gio/stable/GSettings.html#g-settings-set)  
+mateconf_client_get() | [g_settings_get()](https://developer.gnome.org/gio/stable/GSettings.html#g-settings-get)  
+mateconf_client_get_bool() | [g_settings_get_boolean()](https://developer.gnome.org/gio/stable/GSettings.html#g-settings-get-boolean)  
+mateconf_client_set_bool() | [g_settings_set_boolean()](https://developer.gnome.org/gio/stable/GSettings.html#g-settings-set-boolean)  
+mateconf_client_get_int() | [g_settings_get_int()](https://developer.gnome.org/gio/stable/GSettings.html#g-settings-get-int)  
+mateconf_client_set_int() | [g_settings_set_int()](https://developer.gnome.org/gio/stable/GSettings.html#g-settings-set-int)  
+mateconf_client_get_float() | [g_settings_get_double()](https://developer.gnome.org/gio/stable/GSettings.html#g-settings-get-double)  
+mateconf_client_set_float() | [g_settings_set_double()](https://developer.gnome.org/gio/stable/GSettings.html#g-settings-set-double)  
+mateconf_client_get_string() | [g_settings_get_string()](https://developer.gnome.org/gio/stable/GSettings.html#g-settings-get-string)  
+mateconf_client_set_string() | [g_settings_set_string()](https://developer.gnome.org/gio/stable/GSettings.html#g-settings-set-string)  
+mateconf_client_get_list() |  for string lists, see [g_settings_get_strv()](https://developer.gnome.org/gio/stable/GSettings.html#g-settings-get-strv), else see [g_settings_get_value()](https://developer.gnome.org/gio/stable/GSettings.html#g-settings-get-value) and [GVariant](https://developer.gnome.org/glib/stable/glib/glib-GVariant.html#GVariant) API  
+mateconf_client_set_list() |  for string lists, see [g_settings_set_strv()](https://developer.gnome.org/gio/stable/GSettings.html#g-settings-set-strv), else see [g_settings_set_value()](https://developer.gnome.org/gio/stable/GSettings.html#g-settings-set-value) and [GVariant](https://developer.gnome.org/glib/stable/glib/glib-GVariant.html#GVariant) API  
+mateconf_entry_get_is_writable() | [g_settings_is_writable()](https://developer.gnome.org/gio/stable/GSettings.html#g-settings-is-writable)  
+mateconf_client_notify_add() |  not required, the ["changed"](https://developer.gnome.org/gio/stable/GSettings.html#GSettings-changed) signal is emitted automatically  
 mateconf_client_add_dir() |  not required, each GSettings instance automatically watches all keys in its path  
-MateConfChangeSet | [g_settings_delay()](http://developer.gnome.org/gio/stable/GSettings.html#g-settings-delay), [g_settings_apply()](http://developer.gnome.org/gio/stable/GSettings.html#g-settings-apply)  
+MateConfChangeSet | [g_settings_delay()](https://developer.gnome.org/gio/stable/GSettings.html#g-settings-delay), [g_settings_apply()](https://developer.gnome.org/gio/stable/GSettings.html#g-settings-apply)  
 mateconf_client_get_default_from_schema() |  no equivalent, applications are expected to know their schema  
 mateconf_client_all_entries() |  no equivalent, applications are expected to know their schema, and GSettings does not allow schema-less entries  
 mateconf_client_get_without_default() |  no equivalent  
-mateconf_bridge_bind_property() | [g_settings_bind()](http://developer.gnome.org/gio/stable/GSettings.html#g-settings-bind)  
-mateconf_bridge_bind_property_full() | [g_settings_bind_with_mapping()](http://developer.gnome.org/gio/stable/GSettings.html#g-settings-bind-with-mapping)  
+mateconf_bridge_bind_property() | [g_settings_bind()](https://developer.gnome.org/gio/stable/GSettings.html#g-settings-bind)  
+mateconf_bridge_bind_property_full() | [g_settings_bind_with_mapping()](https://developer.gnome.org/gio/stable/GSettings.html#g-settings-bind-with-mapping)  
  
 MateConfBridge was a third-party library that used MateConf to bind an object
 property to a particular configuration key. GSettings offers this service
@@ -102,13 +102,13 @@ MateConf requires you to call **mateconf_client_add_dir()** and
 this is not necessary; signals get emitted automatically for every change.
 
 The
-["changed"](http://developer.gnome.org/gio/stable/GSettings.html#GSettings-changed) signal is emitted for each changed key.
-There is also a ["change-event"](http://developer.gnome.org/gio/stable/GSettings.html#GSettings-change-event) signal that you can handle if you need to see groups of keys that get
+["changed"](https://developer.gnome.org/gio/stable/GSettings.html#GSettings-changed) signal is emitted for each changed key.
+There is also a ["change-event"](https://developer.gnome.org/gio/stable/GSettings.html#GSettings-change-event) signal that you can handle if you need to see groups of keys that get
 changed at the same time.
 
 GSettings also notifies you about changes in writability of keys, with the
-["writable-changed"](http://developer.gnome.org/gio/stable/GSettings.html#GSettings-writable-changed) signal
-(and the ["writable-change-event"](http://developer.gnome.org/gio/stable/GSettings.html#GSettings-writable-change-event) signal).
+["writable-changed"](https://developer.gnome.org/gio/stable/GSettings.html#GSettings-writable-changed) signal
+(and the ["writable-change-event"](https://developer.gnome.org/gio/stable/GSettings.html#GSettings-writable-change-event) signal).
 
 ## Change sets
 
@@ -118,16 +118,16 @@ atomically, which is one of its shortcomings).
 
 Instead of a separate object to represent a change set, GSettings has a
 'delayed-apply' mode, which can be turned on for a GSettings object by calling
-[g_settings_delay()](http://developer.gnome.org/gio/stable/GSettings.html#g-settings-delay).
+[g_settings_delay()](https://developer.gnome.org/gio/stable/GSettings.html#g-settings-delay).
 In this mode, changes done to the GSettings object are not applied -
 they are still visible when calling
-[g_settings_get()](http://developer.gnome.org/gio/stable/GSettings.html#g-settings-get) on
+[g_settings_get()](https://developer.gnome.org/gio/stable/GSettings.html#g-settings-get) on
 the same object, but not to other GSettings instances or even other processes.
 
 To apply the pending changes all at once (GSettings does atomicity here), call
-[g_settings_apply()](http://developer.gnome.org/gio/stable/GSettings.html#g-settings-apply). To revert the pending changes, call
-[g_settings_revert()](http://developer.gnome.org/gio/stable/GSettings.html#g-settings-revert) or just drop the reference to the
-[GSettings](http://developer.gnome.org/gio/stable/GSettings.html) object.
+[g_settings_apply()](https://developer.gnome.org/gio/stable/GSettings.html#g-settings-apply). To revert the pending changes, call
+[g_settings_revert()](https://developer.gnome.org/gio/stable/GSettings.html#g-settings-revert) or just drop the reference to the
+[GSettings](https://developer.gnome.org/gio/stable/GSettings.html) object.
 
 ## Schema conversion
 
@@ -200,7 +200,7 @@ schema in a different location, you need to set the _XDG_DATA_DIRS_
 environment variable appropriately.
 
 Schemas are compiled into binary form by the
-[glib-compile-schemas](http://developer.gnome.org/gio/stable/glib-compile-schemas.html) utility.
+[glib-compile-schemas](https://developer.gnome.org/gio/stable/glib-compile-schemas.html) utility.
 
 GIO provides a _glib_compile_schemas_ variable for the schema compiler.
 
@@ -230,9 +230,9 @@ source files used by that rule.
 
 One possible pitfall in doing schema conversion is that the default values in
 GSettings schemas are parsed by the
-[GVariant](http://developer.gnome.org/glib/stable/glib/glib-GVariant.html#GVariant) parser. This means that strings need to include
+[GVariant](https://developer.gnome.org/glib/stable/glib/glib-GVariant.html#GVariant) parser. This means that strings need to include
 quotes in the  XML. Also note that the types are now specified as
-[GVariant](http://developer.gnome.org/glib/stable/glib/glib-GVariant.html#GVariant) type strings.
+[GVariant](https://developer.gnome.org/glib/stable/glib/glib-GVariant.html#GVariant) type strings.
 
     
     
@@ -335,7 +335,7 @@ your application you must ensure that all key names are valid.
 
 ## Data conversion
 
-[Copied from [GIO Reference Manual: Dataconversion](http://developer.gnome.org/gio/2.28/ch28s07.html) and adoped for MATE]
+[Copied from [GIO Reference Manual: Dataconversion](https://developer.gnome.org/gio/2.28/ch28s07.html) and adoped for MATE]
 
 MateConf comes with a GSettings backend that can be used to facility the
 transition to the GSettings API until you are ready to make the jump to a

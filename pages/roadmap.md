@@ -55,7 +55,7 @@ the forum or the IRC chat to ask for new features.
 
   * Update caja integration with tracker search engine [tracker dev documentation](https://wiki.gnome.org/Projects/Tracker/Documentation) \- [Nautilus git log](https://git.gnome.org/browse/nautilus/log/libnautilus-private/nautilus-search-engine-tracker.c)
 
-  * Add support for [AccountsService](http://www.freedesktop.org/wiki/Software/AccountsService)
+  * Add support for [AccountsService](https://www.freedesktop.org/wiki/Software/AccountsService)
 
   * [Complete support for systemd-logind](./systemd-logind.md)
 
@@ -69,7 +69,7 @@ the forum or the IRC chat to ask for new features.
 
 ### Release 1.20
 
-Released on February 7, 2018. Announcement [here](http://mate-desktop.org/blog/2018-02-07-mate-1-20-released/).
+Released on February 7, 2018. Announcement [here](https://mate-desktop.org/blog/2018-02-07-mate-1-20-released/).
 
   * ~~Bump minimum required GTK+3 version to 3.22~~
 
@@ -105,7 +105,7 @@ Released on February 7, 2018. Announcement [here](http://mate-desktop.org/blog/2
 
 ### Release 1.18
 
-Released on March 13, 2017. Announcement [here](http://mate-desktop.org/blog/2017-03-13-mate-1-18-released/).
+Released on March 13, 2017. Announcement [here](https://mate-desktop.org/blog/2017-03-13-mate-1-18-released/).
 [Old status page](./status-1.18.md).
 
   * ~~Migrate all remaining packages to GTK+3 and require version 3.14~~
@@ -126,7 +126,7 @@ Released on March 13, 2017. Announcement [here](http://mate-desktop.org/blog/201
 
 ### Release 1.16
 
-Released on September 21, 2016. Announcement [here](http://mate-desktop.org/blog/2016-09-21-mate-1-16-released/).
+Released on September 21, 2016. Announcement [here](https://mate-desktop.org/blog/2016-09-21-mate-1-16-released/).
 [Old status page](./status-1.16.md).
 
   * ~~engrampa: move to GTK+3 ([#140](https://github.com/mate-desktop/engrampa/pull/140))~~
@@ -141,7 +141,7 @@ Released on September 21, 2016. Announcement [here](http://mate-desktop.org/blog
 
 ### Release 1.14
 
-Released on April 8, 2016. Announcement [here](http://mate-desktop.org/blog/2016-04-08-mate-1-14-released/).
+Released on April 8, 2016. Announcement [here](https://mate-desktop.org/blog/2016-04-08-mate-1-14-released/).
 [Old status page](./status-1.14.md).
 
   * ~~caja: allow managing each python extension separately ([#521](https://github.com/mate-desktop/caja/pull/521), [python-caja #24](https://github.com/mate-desktop/python-caja/pull/24))~~
@@ -170,7 +170,7 @@ Released on April 8, 2016. Announcement [here](http://mate-desktop.org/blog/2016
 
 ### Release 1.12
 
-Released on November 5, 2015. Announcement [here](http://mate-desktop.org/blog/2015-11-05-mate-1-12-released/).
+Released on November 5, 2015. Announcement [here](https://mate-desktop.org/blog/2015-11-05-mate-1-12-released/).
 [Old status page](./status-1.12.md).
 
   * ~~atril: use distro-packaged MathJax library ([#158](https://github.com/mate-desktop/atril/issues/158))~~
@@ -189,7 +189,7 @@ Released on November 5, 2015. Announcement [here](http://mate-desktop.org/blog/2
 
 ### Release 1.10
 
-Released on June 11, 2015. Announcement [here](http://www.mate-desktop.org/blog/2015-06-11-mate-1-10-released/).
+Released on June 11, 2015. Announcement [here](https://www.mate-desktop.org/blog/2015-06-11-mate-1-10-released/).
 [Old status page](./status-1.10.md).
 
   * ~~atril: Support ePub format ([#13](https://github.com/mate-desktop/mate-document-viewer/issues/13)) (GSOC 2014)~~
@@ -200,7 +200,7 @@ Released on June 11, 2015. Announcement [here](http://www.mate-desktop.org/blog/
 
   * ~~Drop GStreamer for alsa (was[Add support for GStreamer-1.0](./gstreamer-1.0)) ([#9](https://github.com/mate-desktop/mate-media/issues/9)) (GSOC 2014)~~
 
-  * ~~Replace[mate-calc](https://github.com/mate-desktop/mate-calc) with [galculator](http://galculator.sourceforge.net/)~~
+  * ~~Replace[mate-calc](https://github.com/mate-desktop/mate-calc) with [galculator](https://galculator.sourceforge.net/)~~
 
   * ~~Replace[mate-dialogs](https://github.com/mate-desktop/mate-dialogs) with [zenity](https://git.gnome.org/browse/zenity)~~
 
@@ -208,7 +208,7 @@ Released on June 11, 2015. Announcement [here](http://www.mate-desktop.org/blog/
 
 ### Release 1.8
 
-Released on March 4, 2014. Announcement [here](http://www.mate-desktop.org/blog/2014-03-04-mate-1-8-released/).
+Released on March 4, 2014. Announcement [here](https://www.mate-desktop.org/blog/2014-03-04-mate-1-8-released/).
 [Old status page](./status-1.8.md).
 
   * ~~caja: Add option to use IEC units instead of SI units~~
@@ -245,7 +245,7 @@ Released on March 4, 2014. Announcement [here](http://www.mate-desktop.org/blog/
 
   * ~~Drop libmatewnck for libwnck~~
 
-  * ~~Drop mucharmap for gucharmap[commit](http://git.mate-desktop.org/mate-applets/commit/?id=c759fadd251e4a5b95e0a4b483889f654ac89d62)~~
+  * ~~Drop mucharmap for gucharmap[commit](https://git.mate-desktop.org/mate-applets/commit/?id=c759fadd251e4a5b95e0a4b483889f654ac89d62)~~
 
   * ~~Move caja extensions to`caja-extensions` package~~
 
@@ -253,7 +253,7 @@ Released on March 4, 2014. Announcement [here](http://www.mate-desktop.org/blog/
 
 ### Release 1.6
 
-Released on April 2, 2013. Announcement [here](http://mate-desktop.org/2013/04/02/mate-1-6-released/).
+Released on April 2, 2013. Announcement [here](https://mate-desktop.org/2013/04/02/mate-1-6-released/).
 [Old status page](./status-1.6.md).
 
   * ~~Fix deprecations in core packages ([Deprecated code](./deprecated_code))~~
@@ -326,7 +326,7 @@ Released on April 2, 2013. Announcement [here](http://mate-desktop.org/2013/04/0
 
 ### Release 1.4
 
-Released on July 30, 2012. Announcement [here](http://mate-desktop.org/2012/07/30/mate-1-4-released/).
+Released on July 30, 2012. Announcement [here](https://mate-desktop.org/2012/07/30/mate-1-4-released/).
 
   * ~~Fix remaining applications in[Mate-Extra](https://github.com/mate-desktop/Mate-Extra)~~
 
@@ -374,7 +374,7 @@ Released on July 30, 2012. Announcement [here](http://mate-desktop.org/2012/07/3
 
 ### Release 1.2
 
-Released on April 16, 2012. Announcement [here](http://mate-desktop.org/2012/04/16/mate-1-2-released/).
+Released on April 16, 2012. Announcement [here](https://mate-desktop.org/2012/04/16/mate-1-2-released/).
 
   * ~~Fix all about windows with new MATE website~~ Amanas
 
@@ -390,7 +390,7 @@ Released on April 16, 2012. Announcement [here](http://mate-desktop.org/2012/04/
 
     * ~~caja-image-converter~~ stefano-k
 
-  * ~~Integration with freedesktop ([#44353](https://bugs.freedesktop.org/show_bug.cgi?id=44353), [commit](http://cgit.freedesktop.org/xdg/desktop-file-utils/commit/?id=2792eed31f4be15f135948d131b08920aa225e63))~~ nmarques
+  * ~~Integration with freedesktop ([#44353](https://bugs.freedesktop.org/show_bug.cgi?id=44353), [commit](https://cgit.freedesktop.org/xdg/desktop-file-utils/commit/?id=2792eed31f4be15f135948d131b08920aa225e63))~~ nmarques
 
   * ~~Improve Caja stability~~
 

@@ -5,7 +5,7 @@ IRC in our channel.
 
 ## Server
 
-All MATE channels are on [irc.freenode.net](http://freenode.net/) server.
+All MATE channels are on [irc.freenode.net](https://freenode.net/) server.
 
 ## Main channel
 

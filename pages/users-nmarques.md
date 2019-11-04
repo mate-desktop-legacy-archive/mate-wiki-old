@@ -6,8 +6,8 @@
 
   * Bug hunter at MATE Desktop
 
-  * [ marques.so](http://marques.so)
+  * [ marques.so](https://marques.so)
 
-  * [ openSUSE MATE Portal](http://en.opensuse.org/Portal:MATE)
+  * [ openSUSE MATE Portal](https://en.opensuse.org/Portal:MATE)
 
-  * [ MATE Forums - openSUSE](http://forums.mate-desktop.org/viewforum.php?f=14&sid=535c158d053195891b0344da21c0bb79)
+  * [ MATE Forums - openSUSE](https://forums.mate-desktop.org/viewforum.php?f=14&sid=535c158d053195891b0344da21c0bb79)

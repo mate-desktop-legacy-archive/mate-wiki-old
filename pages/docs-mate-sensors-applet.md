@@ -12,23 +12,23 @@ adding  &applet; to the panel:
 
   * Linux kernel i2c modules
 
-    * Via the sysfs filesystem and [i2c](http://secure.netroedge.com/~lm78/kernel26.html) modules distributed directly with the kernel (kernel 2.6)
+    * Via the sysfs filesystem and [i2c](https://secure.netroedge.com/~lm78/kernel26.html) modules distributed directly with the kernel (kernel 2.6)
 
-    * Via the proc filesystem and i2c modules from the [lm_sensors and i2c](http://secure.netroedge.com/~lm78/kernel26.html) packages (kernel 2.4)
+    * Via the proc filesystem and i2c modules from the [lm_sensors and i2c](https://secure.netroedge.com/~lm78/kernel26.html) packages (kernel 2.4)
 
-    * Via the libsensors library provided with the [lm_sensors](http://secure.netroedge.com/~lm78/kernel26.html) package
+    * Via the libsensors library provided with the [lm_sensors](https://secure.netroedge.com/~lm78/kernel26.html) package
 
-  * Linux kernel [i8k](http://people.debian.org/~dz/i8k/00-README) module (for Dell Inspiron Laptops)
+  * Linux kernel [i8k](https://people.debian.org/~dz/i8k/00-README) module (for Dell Inspiron Laptops)
 
-  * Linux kernel [ibm-acpi](http://ibm-acpi.sourceforge.net/) module (for IBM Laptops)
+  * Linux kernel [ibm-acpi](https://ibm-acpi.sourceforge.net/) module (for IBM Laptops)
 
   * Linux kernel PowerPC modules therm_adt746x and therm_windtunnel
 
   * Linux kernel iMac G5 Windfarm module
 
-  * [hddtemp](http://www.guzu.net/linux/hddtemp.php) daemon for reading temperatures from S.M.A.R.T. equipped disks
+  * [hddtemp](https://www.guzu.net/linux/hddtemp.php) daemon for reading temperatures from S.M.A.R.T. equipped disks
 
-  * Linux kernel [Omnibook](http://sourceforge.net/projects/omke) module. (for HP and Toshiba Satellite Laptops)
+  * Linux kernel [Omnibook](https://sourceforge.net/projects/omke) module. (for HP and Toshiba Satellite Laptops)
 
   * NVIDIA graphics cards via libNVCtrl (provided with [nvidia-settings](ftp://download.nvidia.com/XFree86/nvidia-settings/))
 

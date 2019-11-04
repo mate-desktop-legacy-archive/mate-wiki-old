@@ -35,7 +35,7 @@ about it in the manual for [GSettings](./docs-gsettings)
 This is because of the move to gsettings. There is a beta migration script
 [here](https://github.com/mate-desktop/mate-desktop/blob/master/mate-conf/mate-conf-import),
 issues please report in the
-[forums](http://forums.mate-desktop.org/viewtopic.php?f=16&t=1650).
+[forums](https://forums.mate-desktop.org/viewtopic.php?f=16&t=1650).
 
 ## My document icons previews are not showing
 

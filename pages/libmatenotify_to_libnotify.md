@@ -1,6 +1,6 @@
 # Replace libmatenofity with libnotify
 
-  * [Libnotify Reference Manual](http://developer-next.gnome.org/libnotify/0.7/)
+  * [Libnotify Reference Manual](https://developer-next.gnome.org/libnotify/0.7/)
 
 ## API Changes
 

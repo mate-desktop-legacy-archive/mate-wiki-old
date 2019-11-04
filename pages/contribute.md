@@ -1,6 +1,6 @@
 # Contribute
 
-MATE Desktop uses [git](http://git-scm.com/) as its
+MATE Desktop uses [git](https://git-scm.com/) as its
 version control system, and [GitHub](https://github.com/mate-desktop)
 for repositories hosting. The best place to
 ask for development help is on IRC #mate-dev channel (irc.freenode.net).
@@ -16,7 +16,7 @@ _mate-terminal_ with the package you want to get the code):
 
 ### Fork
 
-To make your fork of a MATE project in GitHub, follow [this tutorial](http://help.github.com/fork-a-repo/).
+To make your fork of a MATE project in GitHub, follow [this tutorial](https://help.github.com/fork-a-repo/).
 
 ### Example workflow
 
@@ -27,7 +27,7 @@ separate branch than the `master` or `1.6` branches.
 
 To be clear, this is not meant to be a general guide to `git`. You can get the
 basics of how git works from the
-[progit](http://git-scm.com/book/en/Git-Basics) documentation on the [git website](http://git-scm.com/doc).
+[progit](https://git-scm.com/book/en/Git-Basics) documentation on the [git website](https://git-scm.com/doc).
 
   1. Fork the git repository as described in the github documentation mentioned above.
 
@@ -53,7 +53,7 @@ have a fun time fixing the results of that.
 ### GIT web interface
 
 We have a git web interface to browse through MATE source code:
-<http://git.mate-desktop.org/>.
+<https://git.mate-desktop.org/>.
 
 ## Documentation
 
@@ -61,13 +61,13 @@ This is a list of useful links.
 
 ### Libraries
 
-  * [GLib Reference Manual](http://developer.gnome.org/glib/2.32/)
+  * [GLib Reference Manual](https://developer.gnome.org/glib/2.32/)
 
-  * [GIO Reference Manual](http://developer.gnome.org/gio/2.32/)
+  * [GIO Reference Manual](https://developer.gnome.org/gio/2.32/)
 
-  * [GTK+ 2 Reference Manual](http://developer.gnome.org/gtk2/2.24/)
+  * [GTK+ 2 Reference Manual](https://developer.gnome.org/gtk2/2.24/)
 
-  * [GTK+ 3 Reference Manual](http://developer.gnome.org/gtk3/stable/)
+  * [GTK+ 3 Reference Manual](https://developer.gnome.org/gtk3/stable/)
 
 ### MATE
 

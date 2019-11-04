@@ -1,4 +1,4 @@
-Welcome to [Mate Desktop Environment](http://www.mate-desktop.org/) wiki!
+Welcome to [Mate Desktop Environment](https://www.mate-desktop.org/) wiki!
 
 ## Documentation
 
@@ -18,7 +18,7 @@ Welcome to [Mate Desktop Environment](http://www.mate-desktop.org/) wiki!
 
 ## Support
 
-  * [IRC](./pages/irc.md): Join #mate channel on irc.freenode.net ([Webchat](http://webchat.freenode.net?randomnick=1&channels=mate&prompt=1))
+  * [IRC](./pages/irc.md): Join #mate channel on irc.freenode.net ([Webchat](https://webchat.freenode.net?randomnick=1&channels=mate&prompt=1))
 
   * [Issue tracker](https://github.com/mate-desktop/), [FAQ](./pages/faq.md), [Known issues](./pages/known_issues.md)
 
@@ -26,7 +26,7 @@ Welcome to [Mate Desktop Environment](http://www.mate-desktop.org/) wiki!
 
   * [MATE Development](./pages/dev-doc.md), [Roadmap](./pages/roadmap.md)
 
-  * Source code: [GitHub](https://github.com/mate-desktop/), [git.mate-desktop.org](http://git.mate-desktop.org/)
+  * Source code: [GitHub](https://github.com/mate-desktop/), [git.mate-desktop.org](https://git.mate-desktop.org/)
 
   * Stable release: [Status of MATE 1.16](./pages/status-1.16.md)
 

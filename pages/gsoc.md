@@ -3,7 +3,7 @@
 **Google Summer of Code** (GSoC) is a program that offers student developers
 stipends to write code for various open source projects.
 
-<http://www.google-melange.com/>
+<https://www.google-melange.com/>
 
   * [2013](./gsoc-2013)
 

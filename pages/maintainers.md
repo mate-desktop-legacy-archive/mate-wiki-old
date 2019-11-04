@@ -85,11 +85,11 @@ To remove from origin:
 
 ## Prepare for release
 
-  * If we are preparing a new major release of the whole MATE Desktop upload tarball to server <http://release.mate-desktop.org>
+  * If we are preparing a new major release of the whole MATE Desktop upload tarball to server <https://release.mate-desktop.org>
 
-  * If you are preparing a point release upload the tarball to <http://pre-release.mate-desktop.org>
+  * If you are preparing a point release upload the tarball to <https://pre-release.mate-desktop.org>
 
 7\. Update wiki
 
-  * <http://wiki.mate-desktop.org/status:1.18>
+  * <https://wiki.mate-desktop.org/status:1.18>
 

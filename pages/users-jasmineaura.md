@@ -2,20 +2,20 @@
 
 Biography? meh.
 
-Various projects I'm currently involved in: <http://github.com/jasmineaura>
-<http://jas.gemnetworks.com>
+Various projects I'm currently involved in: <https://github.com/jasmineaura>
+<https://jas.gemnetworks.com>
 
 A lot of my work remains unpublished, but here are some, various published
 works (off the top of my head):
 
-Some fun on Linux-PHC: http://linux-phc.org/forum/viewtopic.php?f=10&t=111
+Some fun on Linux-PHC: https://linux-phc.org/forum/viewtopic.php?f=10&t=111
 
 PSS package calculator (in javascript) for AMD K8 Processors:
-<http://jas.gemnetworks.com/DSDT_PSS/calc.html>
+<https://jas.gemnetworks.com/DSDT_PSS/calc.html>
 
 Some BIOS/DSDT/SSDT and Hardware modding fun:
 
-<http://www.bios-mods.com/forum/Thread-Everex-XT5000T-mod-PSS-Package-Calculator-Generator-for-AMD-K8-Processors?page=2>
+<https://www.bios-mods.com/forum/Thread-Everex-XT5000T-mod-PSS-Package-Calculator-Generator-for-AMD-K8-Processors?page=2>
 
 ProxyRevealer phpBB MOD (currently dormant):
 https://www.phpbb.com/community/viewtopic.php?f=70&t=1174765
@@ -24,12 +24,12 @@ https://www.phpbb.com/community/viewtopic.php?f=70&t=1174765
 
 ProxyRevealer is based on IP Unmasker (PoC):
 
-<http://jas.gemnetworks.com/ip_unmasker/ip_unmasker.php>
+<https://jas.gemnetworks.com/ip_unmasker/ip_unmasker.php>
 
 Unreleased XSS work (unreleased because I used it to bust spammers/trolls
 using web-proxies):
 
-<http://jas.gemnetworks.com/xss/xss.html>
+<https://jas.gemnetworks.com/xss/xss.html>
 
 2007-2009:
 

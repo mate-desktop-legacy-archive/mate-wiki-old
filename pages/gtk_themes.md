@@ -33,8 +33,8 @@ Or better, make it retro-compatible.
 
 ## Gtk2 and Gtk3 at same time.
 
-I've found a Gtk2 and Gtk3 called [Aldabra](http://gnome-look.org/content/show.php/?content=142247),
-and there is an [AUR package](http://aur.archlinux.org/packages.php?ID=49511) too. It look like Adwaita
+I've found a Gtk2 and Gtk3 called [Aldabra](https://gnome-look.org/content/show.php/?content=142247),
+and there is an [AUR package](https://aur.archlinux.org/packages.php?ID=49511) too. It look like Adwaita
 theme.
 
 It's included on [mate-themes](./mate-themes) package.

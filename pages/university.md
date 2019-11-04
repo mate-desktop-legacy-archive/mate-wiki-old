@@ -18,39 +18,39 @@ This page contains the related documentation.
 
 #### C
 
-  * [C Programming (Wikibooks)](http://en.wikibooks.org/wiki/C_Programming)
+  * [C Programming (Wikibooks)](https://en.wikibooks.org/wiki/C_Programming)
 
-  * [The C programming Language by B. W. Kernighan and D. M. Ritchie](http://net.pku.edu.cn/~course/cs101/2008/resource/The_C_Programming_Language.pdf)
+  * [The C programming Language by B. W. Kernighan and D. M. Ritchie](https://net.pku.edu.cn/~course/cs101/2008/resource/The_C_Programming_Language.pdf)
 
 #### Python
 
-  * [Python Documentation](http://www.python.org/doc/)
+  * [Python Documentation](https://www.python.org/doc/)
 
-  * [Python Programming (Wikibooks)](http://en.wikibooks.org/wiki/Python_Programming)
+  * [Python Programming (Wikibooks)](https://en.wikibooks.org/wiki/Python_Programming)
 
 ### Libraries
 
 #### GLIB
 
-  * [GLib Reference Manual](http://developer.gnome.org/glib/2.38/)
+  * [GLib Reference Manual](https://developer.gnome.org/glib/2.38/)
 
-  * [GIO Reference Manual](http://developer.gnome.org/gio/2.38/)
+  * [GIO Reference Manual](https://developer.gnome.org/gio/2.38/)
 
 #### GTK2
 
-  * [GTK+ 2 Reference Manual](http://developer.gnome.org/gtk2/2.24/)
+  * [GTK+ 2 Reference Manual](https://developer.gnome.org/gtk2/2.24/)
 
-  * [GDK2 Reference Manual](http://developer.gnome.org/gdk2/2.24/)
+  * [GDK2 Reference Manual](https://developer.gnome.org/gdk2/2.24/)
 
 #### GTK3
 
-  * [GTK+ 3 Reference Manual](http://developer.gnome.org/gtk3/3.10/)
+  * [GTK+ 3 Reference Manual](https://developer.gnome.org/gtk3/3.10/)
 
-  * [GDK3 Reference Manual](http://developer.gnome.org/gdk3/3.10/)
+  * [GDK3 Reference Manual](https://developer.gnome.org/gdk3/3.10/)
 
 #### Cairo
 
-  * [Cairo documentation](http://cairographics.org/documentation/)
+  * [Cairo documentation](https://cairographics.org/documentation/)
 
 ### Version control system
 
@@ -58,11 +58,11 @@ This page contains the related documentation.
 
 git is the distributed revision control used in MATE Desktop project
 
-  * [Documentation](http://git-scm.com/documentation)
+  * [Documentation](https://git-scm.com/documentation)
 
   * [Set up git](https://help.github.com/articles/set-up-git)
 
-  * [Basic Branching and Merging](http://git-scm.com/book/en/Git-Branching-Basic-Branching-and-Merging)
+  * [Basic Branching and Merging](https://git-scm.com/book/en/Git-Branching-Basic-Branching-and-Merging)
 
 #### GitHub
 

@@ -104,7 +104,7 @@ The new one it's the same without the `OAFIID:MATE_` prefix
     	return retval;
     }
 
-  * Applet menu: the new API uses [GtkAction](http://developer.gnome.org/gtk/2.24/GtkAction.html) to build the menu, so we need to define [GtkActionEntry](http://developer.gnome.org/gtk/2.24/GtkActionGroup.html#GtkActionEntry) instead of MateComponentUIVerb. See the example:
+  * Applet menu: the new API uses [GtkAction](https://developer.gnome.org/gtk/2.24/GtkAction.html) to build the menu, so we need to define [GtkActionEntry](https://developer.gnome.org/gtk/2.24/GtkActionGroup.html#GtkActionEntry) instead of MateComponentUIVerb. See the example:
 
 Old menu verbs definition:
 
@@ -130,7 +130,7 @@ New menu actions definition should be:
     };
 
 If you have toggle action you need to define
-[GtkToggleActionEntry](http://developer.gnome.org/gtk/2.24/GtkActionGroup.html#GtkToggleActionEntry)
+[GtkToggleActionEntry](https://developer.gnome.org/gtk/2.24/GtkActionGroup.html#GtkToggleActionEntry)
 actions too:
 
     
@@ -141,7 +141,7 @@ actions too:
           G_CALLBACK (cb_verb), FALSE }
       };
 
-  * Callbacks should be changed to match the [GtkAction](http://developer.gnome.org/gtk/2.24/GtkAction.html) callback prototype:
+  * Callbacks should be changed to match the [GtkAction](https://developer.gnome.org/gtk/2.24/GtkAction.html) callback prototype:
 
 Old callback:
 
@@ -161,7 +161,7 @@ The new version would be:
                          ShowDesktopData *sdd)
 
 
-  * To setup the menu we use `mate_panel_applet_setup_menu_from_file()` which has a new API. It takes the file with the ui definitions and a [GtkActionGroup](http://developer.gnome.org/gtk/2.24/GtkActionGroup.html), so we need to build a new action group first:
+  * To setup the menu we use `mate_panel_applet_setup_menu_from_file()` which has a new API. It takes the file with the ui definitions and a [GtkActionGroup](https://developer.gnome.org/gtk/2.24/GtkActionGroup.html), so we need to build a new action group first:
 
 Old code for setting up the menu:
 
@@ -192,7 +192,7 @@ The new code should be something like:
 
 If the applet has toggle actions you have to call
 
-[gtk_action_group_add_toggle_actions()](http://developer.gnome.org/gtk/2.24/GtkActionGroup.html#gtk-action-group-add-toggle-actions) to add toggle actions to the action group:
+[gtk_action_group_add_toggle_actions()](https://developer.gnome.org/gtk/2.24/GtkActionGroup.html#gtk-action-group-add-toggle-actions) to add toggle actions to the action group:
 
     
     
@@ -216,7 +216,7 @@ locked down, you can just get the action from the action group:
 ### Menu UI XML file
 
 The new menu xml file is a normal
-[GtkUIManager](http://developer.gnome.org/gtk/2.24/GtkUIManager.html) ui file. It should
+[GtkUIManager](https://developer.gnome.org/gtk/2.24/GtkUIManager.html) ui file. It should
 contain just menutiem entries and separators. See the example:
 
     

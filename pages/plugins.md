@@ -8,7 +8,7 @@ This is a list of plugins for MATE desktop supported by community:
 
   * [caja-terminal](https://github.com/yselkowitz/caja-terminal)
 
-  * [caja-pyextensions](http://www.giuspen.com/nautilus-pyextensions)
+  * [caja-pyextensions](https://www.giuspen.com/nautilus-pyextensions)
 
   * [caja-sound-converter](https://github.com/yselkowitz/caja-sound-converter)
 
@@ -28,11 +28,11 @@ This is a list of plugins for MATE desktop supported by community:
 
   * [mate-battery-status](https://github.com/cpicon92/mate-battery-status)
 
-  * [mate-applet-softupd](http://www.zavedil.com/mate-software-updates-applet/)
+  * [mate-applet-softupd](https://www.zavedil.com/mate-software-updates-applet/)
 
-  * [mate-applet-streamer](http://www.zavedil.com/online-radio-applet/)
+  * [mate-applet-streamer](https://www.zavedil.com/online-radio-applet/)
 
-  * [mate-applet-lockkeys](http://www.zavedil.com/mate-lock-keys-applet/)
+  * [mate-applet-lockkeys](https://www.zavedil.com/mate-lock-keys-applet/)
 
 ## Pluma
 

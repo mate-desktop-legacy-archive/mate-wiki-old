@@ -30,7 +30,7 @@ Core Packages |  release |  [g_settings](./mateconf_to_gsettings.md) |  [depreca
 [mate-notification-daemon](https://github.com/mate-desktop/mate-notification-daemon) |  1.5.1 | [Done](https://github.com/mate-desktop/mate-notification-daemon/commit/2d7e34441f4d33dc1edb5e9871b66b4977069bae) |  sbalneav |
 [Option to show notifications only on one screen](https://github.com/mate-desktop/mate-notification-daemon/issues/4)
 [mate-image-viewer](https://github.com/mate-desktop/mate-image-viewer) |  1.5.0 |  Done | sbalneav |
-[mate-control-center](https://github.com/mate-desktop/mate-control-center) |  1.5.3 |  Done | sbalneav |  Set Metacity theme, [Use GNOME Proxy settings](http://git.mate-desktop.org/mate-control-center/commit/?id=46787e474859801435542191480e2851f7fd870c)
+[mate-control-center](https://github.com/mate-desktop/mate-control-center) |  1.5.3 |  Done | sbalneav |  Set Metacity theme, [Use GNOME Proxy settings](https://git.mate-desktop.org/mate-control-center/commit/?id=46787e474859801435542191480e2851f7fd870c)
 [mate-screensaver](https://github.com/mate-desktop/mate-screensaver) |  1.5.1 |  Done | sbalneav |
 [mate-file-archiver](https://github.com/mate-desktop/mate-file-archiver) |  1.5.1 |  Done |  Done |
 [mate-media](https://github.com/mate-desktop/mate-media) |  1.5.1 |  Done |  Done |
