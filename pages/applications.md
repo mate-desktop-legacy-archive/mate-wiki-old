@@ -22,6 +22,8 @@ Icon in MATE |  GNOME 2.32 |  MATE |  Translation to English |  Type
 ![](media/terminal.png)| Terminal (gnome-terminal)| Terminal (mate-terminal)|  | Command-line interface shell
 ![](media/matedialog.png)| Zenity (zenity)| MateDialog (matedialog)|  | GTK+ command-line dialog boxes
 
+[mate-panel](applications/mate-panel.md)
+
 ## Applets
 
 Icon in MATE |  GNOME 2.32 |  MATE Translation to English |  Type
