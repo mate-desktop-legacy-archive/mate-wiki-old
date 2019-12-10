@@ -281,7 +281,7 @@ In this case is the units will be hidden (the value is set to _true_ ):
     
     mateconftool-2 -s /apps/sensors-applet/hide-units -t bool true
 
-These values can also be set using the [Configuration Editor](./docs-mate-conf-editor.md).
+These values can also be set using the [Configuration Editor].
 
 ## About
 

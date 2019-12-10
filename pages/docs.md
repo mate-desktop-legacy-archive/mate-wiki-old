@@ -16,11 +16,7 @@
 
   * [Terminal emulator (mate-terminal)](docs-mate-terminal.md)
 
-  * [Configuration system (mate-conf)](docs-mate-conf.md)
-
   * [Configuration system (GSetting/dconf)](docs-gsettings.md)
-
-  * [Configuration editor (mate-conf-editor)](docs-mate-conf-editor.md)
 
   * [Menu editor (mozo)](docs-mozo.md)
 
