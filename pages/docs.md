@@ -16,8 +16,6 @@
 
   * [Terminal emulator (mate-terminal)](docs-mate-terminal.md)
 
-  * [Bluetooth (mate-bluetooth)](docs-mate-bluetooth.md)
-
   * [Configuration system (mate-conf)](docs-mate-conf.md)
 
   * [Configuration system (GSetting/dconf)](docs-gsettings.md)
