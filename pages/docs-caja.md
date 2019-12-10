@@ -37,4 +37,4 @@ example plug in a USB stick or insert a CD/DVD.
 
 * * *
 
-[Docs](./docs.md)
+[Docs](pages/docs.md)

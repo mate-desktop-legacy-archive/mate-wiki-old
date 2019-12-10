@@ -286,3 +286,7 @@ These values can also be set using the [Configuration Editor].
 ## About
 
 **mate-sensors-applet** was written by Alex Murray.
+
+* * *
+
+[Docs](pages/docs.md)

@@ -83,11 +83,11 @@ You can also list both the keys and their values by running `gsettings list-
 recursively <schema>`. Do notice that only 3 types of values are shown below
 but it can hold [many types](https://developer.gnome.org/glib/stable/glib-GVariant.html#GVariant). It shows
 
-Value type| examples  
----|---  
-string values| 'vertical-gradient','zoom'  
-boolean values|  true,false (only 2 allowed values)  
-number values|  1,2,100  
+Value type| examples
+---|---
+string values| 'vertical-gradient','zoom'
+boolean values|  true,false (only 2 allowed values)
+number values|  1,2,100
       
     
     $ gsettings list-recursively org.mate.background
@@ -174,3 +174,7 @@ And the same for the compositing manager in Marco.
     
     
     $ gsettings reset org.mate.Marco.general compositing-manager
+
+* * *
+
+[Docs](pages/docs.md)
