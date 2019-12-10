@@ -28,7 +28,7 @@ And also many others:
 
 To install MATE in these distributions, you should use their package manager.
 
-# Debian
+## Debian
 
 MATE 1.8.1 is currently packaged for Debian 8 (jessie). MATE 1.12 is also
 available on Debian testing (“Stretch”) and unstable (“Sid”).
@@ -166,7 +166,7 @@ In Mint Rebecca the package that installs mate is **mint-meta-mate**
      # Only one and installs all of Mate
     apt-get install mint-meta-mate
 
-# Slackware
+## Slackware
 
 You can install MATE on Slackware by using MATE SlackBuilds (MSB) Project
 
@@ -187,7 +187,26 @@ People using Slackware-Current are advised to build the sources from master
 branch at <https://github.com/mateslackbuilds/msb> and read CURRENT.TXT prior
 building.
 
-# Red Hat Enterprise Linux 7
+## Fedora
+
+MATE desktop is included in Fedora and available for all current releases.
+There are multiple ways to get MATE with Fedora.
+
+  1. If you have Fedora already installed, use the following command:
+
+        yum groupinstall mate-desktop
+
+Installation from Mate-Compiz livecd:
+
+  1. scroll down to the buttom of fedora's new webpage <https://getfedora.org/>
+
+  2. For a netiso image choose Fedora-Server product <https://getfedora.org/de_CH/server/download/>
+
+  3. Under Fedora-Spins you will find the mate-compiz livecd image <https://spins.fedoraproject.org/>
+
+Older releases (f20) you can dowload via torrent.  <https://torrents.fedoraproject.org/>
+
+## Red Hat Enterprise Linux 7
 
 MATE is available through the [Extra Packages for Enterprise Linux (EPEL)](https://fedoraproject.org/wiki/EPEL "https://fedoraproject.org/wiki/EPEL") repository, maintained by the Fedora Project. This should work on CentOS 7 as well, and any other compatible derivatives.
 
@@ -209,30 +228,7 @@ you may also want to change the default systemd target to graphical:
 
     systemctl set-default graphical.target
 
-# Fedora
-
-MATE desktop is included in Fedora and available for all current releases.
-There are multiple ways to get MATE with Fedora.
-
-  1. If you have Fedora already installed, use the following command:
-
-        yum groupinstall mate-desktop
-
-New with fedora 21
-
-  1. scroll down to the buttom of fedora's new webpage <https://getfedora.org/>
-
-  2. For a netiso image choose Fedora-Server product <https://getfedora.org/de_CH/server/download/>
-
-  3. Under Fedora-Spins you will find the mate-compiz livecd image <https://spins.fedoraproject.org/>
-
-Older releases (f20) you can dowload via torrent.  <https://torrents.fedoraproject.org/>
-
-The Fedora MATE maintainer, also maintains [here](./fedora_additional_repository.md).
-
-Note: Don't choose fedora workstation, this is nothing more than a gnome livecd ;)
-
-# Gentoo
+## Gentoo
 
 MATE is available from the official repositories. See
 <https://wiki.gentoo.org/wiki/MATE>.
@@ -243,7 +239,7 @@ MATE is available from the official repositories. See
 For x86, MATE is ~arch keyworded so if you run a stable system make sure to
 add the necessary entries to package.keywords.
 
-# Arch Linux
+## Arch Linux
 
 See the [Arch Linux Package Repository](./archlinux_custom_repo.md) page.
 
@@ -255,7 +251,7 @@ To install all of MATE install the **mate** and **mate-extra** groups.
 
     pacman  -Syy mate mate-extra
 
-# openSUSE
+## openSUSE
 
 openSUSE users can install the MATE Desktop through YaST2 META Installer, we
 strongly suggest this method. Please visit the MATE Desktop Portal page in
@@ -266,7 +262,7 @@ openSUSE wiki for further information.
 Besides installation instructions the MATE Desktop Portal on openSUSE wiki
 also provides other useful information!
 
-# Frugalware Linux
+## Frugalware Linux
 
 MATE has been merged into current. Now, you just have to use this command :
 
@@ -277,9 +273,9 @@ MATE has been merged into current. Now, you just have to use this command :
 When installation is done, restart the display-manager and you'll be able to
 choose MATE as window manager.
 
-# Mageia
+## Mageia
 
-## Mageia 4
+### Mageia 4
 
 Mageia 4 provides and officially supports MATE. Use _rpmdrake_ or _Mageia
 Control Center > Install & Remove Software_ and install _task-mate_ for full
@@ -293,7 +289,7 @@ crashes/problems. However, there is an unsupported, unofficial repository
 providing MATE 1.8 version. Please read [below section](./download#mageia_3.md)
 and use same commands to add the repository.
 
-## Mageia 3
+### Mageia 3
 
 Mageia packager and Mageia MATE packages maintainer _Atilla ÖNTAŞ <a.k.a
 tarakbumba>_ provides an unofficial Mageia 3 repository. This repository
@@ -312,9 +308,9 @@ To install MATE Desktop for your Mageia 3 system,
 
   * Then install either _task-mate-minimal_ for a minimal installation or _task-mate_ for full MATE Desktop via rpmdrake or urpmi.
 
-# ALT Linux
+## ALT Linux
 
-## Platform 7
+### Platform 7
 
 MATE 1.6 packages are available in official stable repository; use _apt-get_
 or _synaptic_ to install _mate-default_ for reasonable set of packages, there
@@ -324,7 +320,7 @@ or _synaptic_ to install _mate-default_ for reasonable set of packages, there
 distribution is MATE based in its 7.0 version; there's a somewhat minimalistic
 [starterkit](https://en.altlinux.org/Starterkits#main) too.
 
-## Sisyphus
+### Sisyphus
 
 MATE packages are also available within [development repository](https://packages.altlinux.org/mate);
 installation instructions are the same
@@ -336,7 +332,7 @@ ARMv7 (hardfloat) builds are
 [available](https://ftp.altlinux.org/pub/distributions/ALTLinux/Sisyphus/files/armh/) as
 well.
 
-# PLD Linux
+## PLD Linux
 
 MATE is present in [PLD Th](https://www.pld-linux.org/th), currently version is **1.8**
 
@@ -376,7 +372,7 @@ repositories.
     
     pkg install mate
 
-### DragonFlyBSD
+## DragonFlyBSD
 
 MATE Desktop is available in the DragonFlyBSD Dports.
 
@@ -471,7 +467,7 @@ avahi (multicast) traffic:
     
       pass proto udp from any to 224.0.0.251 port mdns allow-opts
 
-# Cygwin
+## Cygwin
 
 MATE is available in the [official Cygwin distribution](https://cygwin.com/);
 install the `mate-session-manager` package and its
