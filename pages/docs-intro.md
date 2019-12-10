@@ -31,4 +31,4 @@ The name “MATE” comes from [yerba maté](https://en.wikipedia.org/wiki/Yerba
 
 * * *
 
-[Docs](pages/docs.md)
+[Docs](https://wiki.mate-desktop.org/#!pages/docs.md)

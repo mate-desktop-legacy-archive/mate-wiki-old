@@ -177,4 +177,4 @@ And the same for the compositing manager in Marco.
 
 * * *
 
-[Docs](pages/docs.md)
+[Docs](https://wiki.mate-desktop.org/#!pages/docs.md)

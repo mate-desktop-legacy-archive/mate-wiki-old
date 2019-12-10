@@ -4,4 +4,4 @@ Forked from [Gnome Netspeed Applet](https://projects.gnome.org/netspeed/).
 
 * * *
 
-[Docs](pages/docs.md)
+[Docs](https://wiki.mate-desktop.org/#!pages/docs.md)

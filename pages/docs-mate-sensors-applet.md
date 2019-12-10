@@ -289,4 +289,4 @@ These values can also be set using the [Configuration Editor].
 
 * * *
 
-[Docs](pages/docs.md)
+[Docs](https://wiki.mate-desktop.org/#!pages/docs.md)

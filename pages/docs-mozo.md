@@ -7,4 +7,4 @@ You can report issues [here](https://github.com/mate-desktop/mozo/issues).
 
 * * *
 
-[Docs](pages/docs.md)
+[Docs](https://wiki.mate-desktop.org/#!pages/docs.md)

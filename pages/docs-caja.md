@@ -37,4 +37,4 @@ example plug in a USB stick or insert a CD/DVD.
 
 * * *
 
-[Docs](pages/docs.md)
+[Docs](https://wiki.mate-desktop.org/#!pages/docs.md)
