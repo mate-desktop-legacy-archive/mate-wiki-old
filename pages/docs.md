@@ -36,11 +36,11 @@
 
   * [Panel and applets](docs-devel-mate-panel.md)
 
-  * [ Mate Documentation Team](dev-doc-doc-team-guide.md)
+  * [ Mate Documentation Team](docs-devel-doc-team-guide.md)
 
   * [ Desktop Guide](docs-devel-desktop.md)
 
-  * [ Wallpapers](https://wiki.mate-desktop.org/mate-backgrounds)
+  * [ Wallpapers](docs-devel-mate-desktop.md)
 
 ## Notifications
 
