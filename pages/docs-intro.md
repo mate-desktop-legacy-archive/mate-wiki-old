@@ -28,3 +28,7 @@ MATE largely consists of GNOME 2 applications, utilities and applets, which have
 ## Where does the name come from?
 
 The name “MATE” comes from [yerba maté](https://en.wikipedia.org/wiki/Yerba_mate), a species of holly native to subtropical South America. Its leaves contain caffeine and are used to make infusions and a beverage called mate. The name is pronounced like “Mah-tay”, not like “Mait”.
+
+* * *
+
+[Docs](./docs.md)
