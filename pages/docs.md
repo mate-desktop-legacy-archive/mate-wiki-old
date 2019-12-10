@@ -40,7 +40,7 @@
 
   * [ Desktop Guide](docs-devel-desktop.md)
 
-  * [ Wallpapers](docs-devel-mate-desktop.md)
+  * [ Wallpapers](docs-devel-mate-backgrounds.md)
 
 ## Notifications
 

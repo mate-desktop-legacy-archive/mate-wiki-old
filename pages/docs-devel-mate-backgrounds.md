@@ -137,3 +137,7 @@ For pack:
 
 _Last edit: Fri Sep 23 2016_
 
+* * *
+
+[Docs](https://wiki.mate-desktop.org/#!pages/docs.md)
+

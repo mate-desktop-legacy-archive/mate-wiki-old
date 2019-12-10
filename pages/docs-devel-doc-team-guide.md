@@ -189,3 +189,7 @@ please _fix_ it._**![=\)](./images/smileys/icon_smile2.gif)
 ### H: More....
 
   * More:…
+
+* * *
+
+[Docs](https://wiki.mate-desktop.org/#!pages/docs.md)

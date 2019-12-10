@@ -357,3 +357,7 @@ using mateapplet and pygtk.
         $f
     done
 ```
+
+* * *
+
+[Docs](https://wiki.mate-desktop.org/#!pages/docs.md)
