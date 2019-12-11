@@ -42,4 +42,4 @@ Welcome to [Mate Desktop Environment](https://www.mate-desktop.org/) wiki!
 
   * [People](pages/users.md), [Google Summer of Code](pages/gsoc.md)
 
-  * Other: [Code style](pages/code_style.md), [Deprecated code](pages/deprecated_code.md), [Unused Variables](pages/unused_variables.md), [GTK themes](pages/gtk_themes.md)
+  * Other: [Code style](pages/code_style.md), [Deprecated code](pages/deprecated_code.md), [Unused Variables](pages/unused_variables.md)
