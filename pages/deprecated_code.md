@@ -3,7 +3,7 @@
 ## Fixing deprecated code
 
 If you want to fix a deprecation, fill out an issue on
-[github](https://github.com/perberos/Mate-Desktop-Environment/issues?sort=updated&direction=desc&state=open) explaining why.
+[github](https://github.com/mate-desktop) explaining why.
 
 ## Lists
 
@@ -21,45 +21,31 @@ If you want to fix a deprecation, fill out an issue on
 
 #### DEPRECATED; use above status page
 
-Module |  Status  
----|---  
-libmate |  Done (1/11/12)  
-libmatecanvas |  Deprecated  
-libmatecomponent |  Deprecated  
-libmatecomponentui |  Deprecated  
-libmatekbd |  Not Started  
-libmatekeyring |  Done (1/11/12)  
-libmatenotify |  Done (1/11/12)  
-libmateui |  Deprecated  
-libmateweather |  Not Started  
-mate-applets |  Not Started  
-mate-calc |  Not Started  
-mate-conf |  Done (1/11/12)  
-mate-control-center |  Not Started  
-mate-corba |  Done (1/11/12)  
-mate-desktop |  Not Started  
-mate-dialogs |  Deprecated  
-mate-display-manager |  Not Started  
-mate-document-viewer |  Not Started  
-engrampa |  Not Started  
-caja |  Not Started  
-eom |  Not Started  
-mate-keyring |  Done (1/11/12)  
-mate-menus |  Done (1/11/12)  
-mate-notification-daemon |  Not Started  
-mate-panel |  Not Started  
-mate-polkit |  Not Started  
-mate-power-manager |  Not Started  
-mate-screensaver |  Not Started  
-mate-sensors-applet |  Not Started  
-mate-session-manager |  Done (2012/11/14)  
-mate-settings-daemon |  Not Started  
-mate-system-monitor |  Not Started  
-mate-system-tools |  Deprecated  
-mate-terminal |  Not Started  
-pluma |  Not Started  
-mate-vfs |  Deprecated  
-mate-window-manager |  Done (2012/11/20) SB  
+Module |  Status
+---|---
+libmatekbd |  Not Started
+libmateweather |  Not Started
+mate-applets |  Not Started
+mate-calc |  Not Started
+mate-control-center |  Not Started
+mate-desktop |  Not Started
+atril |  Not Started
+engrampa |  Not Started
+caja |  Not Started
+eom |  Not Started
+mate-menus |  Done (1/11/12)
+mate-notification-daemon |  Not Started
+mate-panel |  Not Started
+mate-polkit |  Not Started
+mate-power-manager |  Not Started
+mate-screensaver |  Not Started
+mate-sensors-applet |  Not Started
+mate-session-manager |  Done (2012/11/14)
+mate-settings-daemon |  Not Started
+mate-system-monitor |  Not Started
+mate-terminal |  Not Started
+pluma |  Not Started
+marco |  Done (2012/11/20) SB
   
 ## How to guide
 
@@ -133,5 +119,3 @@ only to files ending in  '.c' or '.h' (–include=*.[ch]), using each line in
 the file specified as argument to '-f' as a search pattern, match whole-words
 only (-w), and prefix output matches with line number (-n).
 
-The .txt files with lists of deprecated symbols can be found
-[here.](https://github.com/szesch/mate-dev-scripts/tree/master/deprecated-symbols)
