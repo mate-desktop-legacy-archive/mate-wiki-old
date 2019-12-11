@@ -3,8 +3,8 @@
 ## Indent style
 
 I would like to use Allman (ANSI) style. Long line is fine too. Recommended
-tab width is 4, but MATE code style allow you to set any you want. 2 or 8 for
-example.
+MATE code style is to use spaces instead of tabs, which can make easily
+indent issues with different tab width in different editors.
 
 ## Type left, name right
 
