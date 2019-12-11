@@ -56,8 +56,6 @@ then to change in compiz type in terminal
 
     $ compiz --replace
 
-## Debian
-
 ## Gentoo
 
 ### Compiz fusion 0.8
