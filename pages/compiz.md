@@ -2,19 +2,15 @@
 
 ## Fedora
 
-Fedora comes with compiz-0.8.8
+Fedora comes with compiz-0.8.17 from [Compiz-Reloaded](https://gitlab.com/compiz)
 
 Minimal installation:
 
-    
-    
-    yum install compiz compiz-mate fusion-icon
+    $ dnf install compiz emerald fusion-icon compiz-manager
 
 Extra packages:
 
-    
-    
-    yum install compiz-plugins-main compiz-plugins-extra compiz-plugins-unsupported emerald-themes emerald-themes-extra
+    $ dnf install compiz-plugins-main compiz-plugins-extra compiz-plugins-experimental emerald-themes simple-ccsm
 
 Runtime:
 
@@ -25,40 +21,31 @@ it is ready for compiz.
 If compiz is running you can do your real-time configuration with the 'ccsm'
 configuration tool.
 
-The compiz-mate package includes 2 start scripts, compiz-mate-gtk and compiz-
-mate emerald. Depends on which windows-decorator you want to use, you can add
-one of them to the gsettings key
+Add compiz to this gsettings key for starting compiz directly with session.
 
-/org/mate/desktop/session/required-components/windowmanager
+`/org/mate/desktop/session/required-components/windowmanager`
 
-Use dconf-editor and replace 'marco' with 'compiz-mate-gtk' or 'compiz-mate-
-emerald'.
+Use dconf-editor and replace 'marco' with 'compiz'.
 
 Or use gsetting from the command line.
 
-    
-    
-    gsettings set org.mate.session.required-components windowmanager <wm>
+    $ gsettings set org.mate.session.required-components windowmanager <wm>
 
-Replace <wm> with 'compiz-mate-gtk' or 'compiz-mate-emerald'.
+Replace <wm> with `compiz`.
 
 Now your mate-session starts directly with compiz as window-manager.
 
 To return to the default window manager (marco) run
 
-    
-    
-    gsettings reset org.mate.session.required-components windowmanager
+    $ gsettings reset org.mate.session.required-components windowmanager
 
-have fun ;)
+Have fun ;)
 
 ## Ubuntu
 
 open a terminal and write
 
-    
-    
-    sudo apt-get install compiz compizconfig-settings-manager
+    $ sudo apt-get install compiz compizconfig-settings-manager
 
 the packets are needed are these: compiz compiz-core compiz-gnome compiz-
 plugins compiz-plugins-default compiz-plugins-main compiz-plugins-main-default
@@ -67,9 +54,7 @@ libdecoration0 python-compizconfig
 
 then to change in compiz type in terminal
 
-    
-    
-    compiz --replace
+    $ compiz --replace
 
 ## Debian
 
@@ -83,9 +68,7 @@ manager marco.
 
 Install the following packages.
 
-    
-    
-    emerge -va x11-apps/fusion-icon x11-wm/compiz-fusion x11-apps/simple-ccsm
+    $ emerge -va x11-apps/fusion-icon x11-wm/compiz-fusion x11-apps/simple-ccsm
 
 Now be sure to configure with simple-ccsm before you enable the compiz window
 manager.
@@ -99,18 +82,14 @@ icon in which you can select compiz as the window manager. See the
 Currently compiz 0.9 is not in the main portage tree. There are ebuilds in the
 desktop-effects overlay.
 
-    
-    
-    layman -a desktop-effects
+    $ layman -a desktop-effects
 
 If you have compiz 0.8 already installed you will have to remove it before
 installing compiz 0.9 dues to blockers.
 
 Now emerge compiz with:
 
-    
-    
-    emerge compiz
+    $ emerge compiz
 
 We need to create a script to start compiz. Place this file in
 `/usr/local/bin` or another directory that is in your `$PATH`.
@@ -135,15 +114,11 @@ either one untill you are satisfied with it.
 If you like to replace the default window manager update gsettings/dconf by
 running the following command.
 
-    
-    
-    gsettings set org.mate.session.required-components windowmanager startcompiz
+    $ gsettings set org.mate.session.required-components windowmanager startcompiz
 
 To return to the default window manager marco run the following.
 
-    
-    
-    gsettings reset org.mate.session.required-components windowmanager
+    $ gsettings reset org.mate.session.required-components windowmanager
 
 ## Arch Linux
 
@@ -179,8 +154,8 @@ will install the necessary packages for running MATE with Compiz 0.9, along
 with good defaults, and preconfigured autostart. If you have trouble
 installing the other Compiz packages for Arch Linux, try this.
 
-## Others
+## Compiz Reloaded
 
-We suggest to use this repository for compiling compiz-0.8.8 for MATE-1.6
+We suggest to use this repository for compiling compiz-0.8.17 for MATE
 
-<https://github.com/bhull2010?tab=repositories>
+[Compiz-Reloaded](https://gitlab.com/compiz)
