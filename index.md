@@ -34,7 +34,7 @@ Welcome to [Mate Desktop Environment](https://www.mate-desktop.org/) wiki!
 
   * [Building](pages/building.md), [Debug](pages/debug.md)
 
-  * [Contribute](pages/contribute.md), [MATE University](pages/university.md)
+  * [Contribute](pages/contribute.md)
 
   * [Translation](pages/translation.md)
 
