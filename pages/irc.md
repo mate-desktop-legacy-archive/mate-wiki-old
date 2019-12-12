@@ -15,7 +15,7 @@ All MATE channels are on [irc.freenode.net](https://freenode.net/) server.
 
   * **#mate-dev** \- Development related discussions channel
 
-  * **#debian-mate** \- Channel for MATE packaging for Debian
+  * **#debian-mate** \- Channel for MATE packaging for Debian on [irc.oftc.net](https://www.oftc.net/) server.
 
   * **#fedora-mate** \- Channel for MATE packaging for Fedora
 
