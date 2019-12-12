@@ -15,7 +15,7 @@ _Do not compile as root!_
 ### Ubuntu 11.10, Debian Wheezy, Linux Mint
 
     
-    
+```    
    $ sudo apt-get install libxml2-dev libxslt1-dev libglib2.0-dev libidl-dev \
         libdbus-1-dev libdbus-glib-1-dev libpolkit-backend-1-dev flex libpopt-dev \
         bison libbz2-dev libgcrypt11-dev libcanberra-dev libgail-dev libgtk2.0-dev \
@@ -26,11 +26,12 @@ _Do not compile as root!_
         libtasn1-3-dev libtool gtk-doc-tools libgamin-dev \
         librarian-dev libdconf-dev libsecret-1-dev libgnome-keyring-dev \
         yelp-tools libnotify-dev
+```
 
 ### Fedora
 
     
-    
+```    
    $ sudo yum install libxml2-devel libxslt-devel glib2-devel libIDL-devel \
         dbus-devel dbus-glib-devel polkit-devel flex popt-devel \
         bison bzip2-devel libgcrypt-devel libcanberra-devel gtk3-devel \
@@ -40,6 +41,7 @@ _Do not compile as root!_
         gobject-introspection-devel upower-devel intltool  \
         libtasn1-devel libtool gamin-devel rarian-devel dconf-devel \
         libsecret-devel libgnome-keyring-devel
+```
 
 To build the extras you will also need:
 
