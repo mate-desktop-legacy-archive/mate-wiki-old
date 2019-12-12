@@ -36,7 +36,7 @@ _Do not compile as root!_
         dbus-devel dbus-glib-devel polkit-devel flex popt-devel \
         bison bzip2-devel libgcrypt-devel libcanberra-devel gtk3-devel \
         libart_lgpl-devel libglade2-devel libtasn1-tools libxklavier-devel libsoup-devel \
-        icon-naming-utils unique-devel libcanberra-gtk2 libcanberra-devel libwnck3-devel \
+        icon-naming-utils unique-devel libcanberra-gtk3 libcanberra-devel libwnck3-devel \
         librsvg2-devel libSM-devel libXdamage-devel \
         gobject-introspection-devel upower-devel intltool  \
         libtasn1-devel libtool gamin-devel rarian-devel dconf-devel \
@@ -60,8 +60,6 @@ To build the extras you will also need:
 ## Building order
 
 Building order is quite tedious. _Check requirements!_
-
-_TODO_ : complete list, for now see [MATE 1.6 build order](./building-1.6)
 
 #### Updated Build instructions for 1.22
 

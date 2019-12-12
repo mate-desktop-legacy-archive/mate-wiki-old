@@ -2,11 +2,19 @@
 
 ## Package requirements
 
-  * intltool >= 0.40.3
+  * [mate-common](./mate-common)
 
-  * gtk+-2.0 >= 2.11.0
+  * glib-2.0 >= 2.50.0
 
-  * libsoup-2.4 >= 2.4.0
+  * gio-2.0 >= 2.26.0
+
+  * gtk+-3.0 >= 3.22.0
+
+  * gtk-doc >= 1.11
+
+  * libsoup >= 2.34.0
+
+  * libxml2 >= 2.6.0
 
 ## Building
 
@@ -15,8 +23,8 @@
 ```bash
     #!/bin/sh
     # Define version
-    release="1.1"
-    version="1.1.0"
+    release="1.22"
+    version="1.22.0"
     package="libmateweather"
     # Get
     wget -c https://pub.mate-desktop.org/releases/$release/$package-$version.tar.bz2

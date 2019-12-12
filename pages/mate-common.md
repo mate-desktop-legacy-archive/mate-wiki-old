@@ -24,10 +24,6 @@
 
   * See [this](https://github.com/mate-desktop/debian-packages/blob/master/mate-common/debian/control) control file for more info.
 
-**_Archlinux_ **
-
-  * intltool
-
 ## Building
 
 `build-mate-common.sh`
