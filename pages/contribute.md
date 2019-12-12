@@ -12,7 +12,7 @@ _mate-terminal_ with the package you want to get the code):
 
     
     
-    git clone git://github.com/mate-desktop/mate-terminal.git
+    $ git clone git://github.com/mate-desktop/mate-terminal.git
 
 ### Fork
 
@@ -72,10 +72,6 @@ This is a list of useful links.
 ### MATE
 
   * [Deprecated code](./deprecated_code.md)
-
-  * [Replace MateConf with GSettings](./mateconf_to_gsettings.md)
-
-  * [Replace MateCorba with DBus](./matecorba_to_dbus.md)
 
   * [Support systemd-logind](./systemd-logind.md)
 
