@@ -32,13 +32,4 @@ own. Mostly xfce4/lxde changes
 
   * [lxappearance](https://git.pld-linux.org/?p=packages/lxappearance.git;a=blob_plain;f=mate-desktop.patch;h=fbe5538255251581a130c17fa8180183f0d9f309;hb=df4f3981ee9103f98f0dc0f3f3b71791ca8ebed0)
 
-## libwnck
 
-Patches reverting libwnck → libmatewnck renames. Useful in distos where
-libwnck2 is still avilable
-
-  * [mate-system-monitor](https://git.pld-linux.org/?p=packages/mate-system-monitor.git;a=blob_plain;f=use-libwnck.patch;hb=7492307d6ba09cbead9a9a3c96bfde4c25ca59da)
-
-  * [mate-panel](https://git.pld-linux.org/?p=packages/mate-panel.git;a=blob_plain;f=use-libwnck.patch;hb=a8f96508ebe19fd337fdf8441f2009bf6c085ccd)
-
-  * [mate-notification-daemon](https://git.pld-linux.org/?p=packages/mate-notification-daemon.git;a=blob_plain;f=use-libwnck.patch;hb=21dd116a7af8e9b639f0120a77702c7b0f018aa1)
