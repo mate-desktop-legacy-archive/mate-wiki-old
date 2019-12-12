@@ -2,15 +2,39 @@
 
 ## Package requirements
 
-  * [mate-doc-utils](./mate-doc-utils)
-
-  * [mate-conf](./mate-conf)
-
   * [mate-settings-daemon](./mate-settings-daemon)
 
   * [mate-desktop](./mate-desktop)
 
   * [mate-menus](./mate-menus)
+
+  * [marco](./marco)
+
+  * [mate-settings-daemon](./mate-settings-daemon)
+
+  * [libmatekbd](./libmatekbd)
+
+  * gettext >= 0.19.8
+
+  * glib-2.0 >= 2.50.0
+
+  * gtk+-3.0 >= 3.22.0
+
+  * libappindicator >= 0.0.13
+
+  * accountsservice
+
+  * dconf
+
+  * desktop-file-utils
+
+  * libcanberra-gtk3 >= 0.4
+
+  * librsvg2
+
+  * libSM
+
+  * libXScrnSaver
 
 ## Building
 

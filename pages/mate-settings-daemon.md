@@ -2,13 +2,17 @@
 
 ## Package requirements
 
-  * intltool >= 0.37.1
+  * [mate-desktop](./mate-desktop)
 
-  * glib-2.0 >= 2.17.3
+  * [libmatemixer](./libmatemixer)
 
-  * gtk+-2.0 >= 2.21.2
+  * libnotify >= 0.7.0
 
-  * [mate-conf](./mate-conf)
+  * gettext >= 0.19.8
+
+  * glib-2.0 >= 2.50.0
+
+  * gtk+-3.0 >= 3.22.0
 
   * gmodule-2.0
 

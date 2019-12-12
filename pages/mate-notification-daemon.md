@@ -4,23 +4,17 @@
 
   * intltool >= 0.40.0
 
-  * [mate-conf](./mate-conf)
+  * gtk+-3.0 >= 3.22.0
 
-  * gtk+-2.0 >= 2.18.0
-
-  * glib-2.0 >= 2.18.0
+  * glib-2.0 >= 2.50.0
 
   * dbus-1 >= 0.78
 
   * dbus-glib-1 >= 0.78
 
-  * libcanberra-gtk >= 0.4
+  * libcanberra-gtk3 >= 0.4
 
-  * libwnck-1.0
-
-  * [libmatewnck](./libmatewnck)
-
-  * startup-notification >= 0.9
+  * libwnck-3.0
 
   * x11
 

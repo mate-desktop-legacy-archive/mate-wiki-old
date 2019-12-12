@@ -16,7 +16,7 @@ _Do not compile as root!_
 
     
     
-     sudo apt-get install libxml2-dev libxslt1-dev libglib2.0-dev libidl-dev \
+   $ sudo apt-get install libxml2-dev libxslt1-dev libglib2.0-dev libidl-dev \
         libdbus-1-dev libdbus-glib-1-dev libpolkit-backend-1-dev flex libpopt-dev \
         bison libbz2-dev libgcrypt11-dev libcanberra-dev libgail-dev libgtk2.0-dev \
         libart-2.0-dev libglade2-dev libtasn1-3-bin libxklavier-dev libsoup2.4-dev \
@@ -31,11 +31,11 @@ _Do not compile as root!_
 
     
     
-    sudo yum install libxml2-devel libxslt-devel glib2-devel libIDL-devel \
+   $ sudo yum install libxml2-devel libxslt-devel glib2-devel libIDL-devel \
         dbus-devel dbus-glib-devel polkit-devel flex popt-devel \
-        bison bzip2-devel libgcrypt-devel libcanberra-devel gtk2-devel \
+        bison bzip2-devel libgcrypt-devel libcanberra-devel gtk3-devel \
         libart_lgpl-devel libglade2-devel libtasn1-tools libxklavier-devel libsoup-devel \
-        icon-naming-utils unique-devel libcanberra-gtk2 libcanberra-devel libwnck-devel \
+        icon-naming-utils unique-devel libcanberra-gtk2 libcanberra-devel libwnck3-devel \
         librsvg2-devel libSM-devel libXdamage-devel \
         gobject-introspection-devel upower-devel intltool  \
         libtasn1-devel libtool gamin-devel rarian-devel dconf-devel \
@@ -49,10 +49,10 @@ To build the extras you will also need:
     libpoppler-glib-dev libgtop2-dev libvte-dev libenchant-dev libgtkmm-2.4-dev libisocodes-dev libgtksourceview2.0-dev gtk2-engines libjpeg-dev
 ```
 
-### For some systems
+### RPM based systems
 
 ```
-    poppler-glib-devel libgtop2-devel gtkmm24-devel vte-devel enchant-devel iso-codes-devel gtksourceview2-devel gtk2-engines-devel
+    poppler-glib-devel libgtop2-devel gtkmm30-devel vte291-devel enchant-devel iso-codes-devel gtksourceview3-devel
 ```
 
 ## Building order
@@ -61,9 +61,7 @@ Building order is quite tedious. _Check requirements!_
 
 _TODO_ : complete list, for now see [MATE 1.6 build order](./building-1.6)
 
-[Build Mate 1.8 on Debian](./build_mate_1.8_on_debian)
-
-#### Updated Build instructions for 1.12
+#### Updated Build instructions for 1.22
 
 ### Base
 
@@ -73,11 +71,11 @@ _TODO_ : complete list, for now see [MATE 1.6 build order](./building-1.6)
 
   * [libmatekbd](./libmatekbd)
 
-  * [libmatewnck](./libmatewnck)
+  * [libmatemixer](./libmatemixer)
 
   * [libmateweather](./libmateweather)
 
-  * [mate-icon-theme](./mate-icon-theme)
+  * [mate-menus](./mate-menus)
 
   * [caja](./caja)
 
@@ -87,13 +85,13 @@ _TODO_ : complete list, for now see [MATE 1.6 build order](./building-1.6)
 
   * [mate-session-manager](./mate-session-manager)
 
-  * [mate-menus](./mate-menus)
-
   * [mate-panel](./mate-panel)
 
   * [mate-control-center](./mate-control-center)
 
 ### Extras
+
+  * [mate-polkit](./mate-polkit)
 
   * [mate-notification-daemon](./mate-notification-daemon)
 
@@ -101,11 +99,9 @@ _TODO_ : complete list, for now see [MATE 1.6 build order](./building-1.6)
 
   * [mate-themes](./mate-themes)
 
-  * [mate-notification-daemon](./mate-notification-daemon)
+  * [mate-icon-theme](./mate-icon-theme)
 
-  * [mate-polkit](./mate-polkit)
-
-  * [mate-text-editor](./mate-text-editor) (pluma)
+  * [pluma](./pluma) (text-editor)
 
   * [mate-terminal](./mate-terminal)
 
@@ -113,25 +109,15 @@ _TODO_ : complete list, for now see [MATE 1.6 build order](./building-1.6)
 
   * [mate-calc](./mate-calc)
 
-  * [mate-conf-editor](./mate-conf-editor)
-
   * [mate-utils](./mate-utils)
-
-  * [mate-system-tools](./mate-system-tools)
 
   * [mate-system-monitor](./mate-system-monitor)
 
-  * [mate-image-viewer](./mate-image-viewer)
+  * [eom](./eom) (image-viewer)
 
-  * [mate-file-archiver](./mate-file-archiver) (engrampa)
+  * [engrampa](./engrampa) (file-archiver)
 
-  * [mate-document-viewer](./mate-document-viewer) (atril)
-
-  * [mate-file-manager-sendto](./mate-file-manager-sendto) (nautilus sendto)
-
-  * [mate-file-manager-gksu](./mate-file-manager-gksu)
-
-  * [mate-bluetooth](./mate-bluetooth)
+  * [atril](./atril) (document-viewer)
 
   * [mate-user-share](./mate-user-share)
 
@@ -139,29 +125,13 @@ _TODO_ : complete list, for now see [MATE 1.6 build order](./building-1.6)
 
   * [mate-power-manager](./mate-power-manager)
 
-  * [python-corba](./python-corba) (ex pyorbit)
-
-  * [python-mate](./python-mate)
-
-  * [python-mate-desktop](./python-mate-desktop)
-
   * [python-caja](./python-caja) (ex python-nautilus)
 
-  * [mate-menu-editor](./mate-menu-editor)
-
-  * [mate-file-manager-open-terminal](./mate-file-manager-open-terminal) (nautilus open terminal)
-
-  * [mate-file-manager-image-converter](./mate-file-manager-image-converter)
-
-  * [ffmpegthumbnailer-caja](./ffmpegthumbnailer-caja)
+  * [mozo](./mozo) (menu-editor)
 
   * [mate-applets](./mate-applets) (extra panel applets)
 
   * [mate-sensors-applet](./mate-sensors-applet)
-
-  * [mate-netspeed](./mate-netspeed)
-
-  * [mate-icon-theme-faenza](./mate-icon-theme-faenza)
 
   * [mate-indicator-applet](./mate-indicator-applet)
 
@@ -202,37 +172,31 @@ If you had problems while compiling, try to run these commands on source path:
 
     
     
-    automake
+  $ automake
 
 Regenerate Makefile.in
 
     
     
-    autoconf
+  $ autoconf
 
 Regenerate ./configure
 
     
     
-    autoreconf -i --force
-
-add mate-doc-utils
-
-    
-    
-    mate-doc-prepare --force --copy
+  $ autoreconf -i --force
 
 Add some missing files
 
     
     
-    aclocal
+  $ aclocal
     
     
-    intltoolize --automake --copy --force
+  $ intltoolize --automake --copy --force
     
     
-    automake --add-missing
+  $ automake --add-missing
 
 ## Troubleshooting
 
@@ -246,7 +210,7 @@ try fixing the ACLOCAL_FLAGS. Adjust to the prefix you are installing to.
 
     
     
-    export ACLOCAL_FLAGS="-I /usr/local/share/aclocal/"
+  $ export ACLOCAL_FLAGS="-I /usr/local/share/aclocal/"
 
 Problems finding the libraries of bits you have already build and installed:
 
@@ -256,13 +220,13 @@ Problems finding the libraries of bits you have already build and installed:
     (glib-2.0 > 2.14.0 gio-2.0 >= 2.25.9 gthread-2.0
     gmodule-2.0 >= 2.7.0 gobject-2.0 >= 2.7.0 MateCORBA-2.0)
     were not met:
-    No package 'MateCORBA-2.0' found
+    No package 'glib-2.0' found
 
 try setting PKG_CONFIG_PATH. Adjust to the prefix you are installing to.
 
     
     
-    export PKG_CONFIG_PATH=/usr/local/lib/pkgconfig/:/usr/local/share/pkgconfig/
+  $ export PKG_CONFIG_PATH=/usr/local/lib/pkgconfig/:/usr/local/share/pkgconfig/
 
 Problems with missing python libraries:
 
@@ -279,7 +243,7 @@ try setting PYTHONPATH. Adjust to the prefix you are installing to.
 
     
     
-    export PYTHONPATH=${PYTHONPATH}:/usr/local/lib/python2.7/site-packages/
+  $ export PYTHONPATH=${PYTHONPATH}:/usr/local/lib/python2.7/site-packages/
 
 ## Uninstall
 
@@ -288,7 +252,7 @@ uninstall with “make uninstall” as root user where you did the “make insta
 
     
     
-    sudo make uninstall
+  $ sudo make uninstall
 
 ## Build Script
 

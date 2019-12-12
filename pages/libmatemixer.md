@@ -1,23 +1,25 @@
-# libmatewnck
+# libmatemixer
 
 ## Package requirements
 
-  * gtk+-2.0 >= 2.19.7
+  * gettext >= 0.19.8
 
-  * glib-2.0 >= 2.16.0
+  * glib-2.0 >= 2.50
 
-  * gobject-2.0 >= 2.13.0
+  * pulseaudio >= 5.0.0
+
+  * alsa >= 1.0.5
 
 ## Building
 
-`build-libmatewnck.sh`
+`build-libmatemixer.sh`
 
 ```bash
     #!/bin/sh
     # Define version
-    release="1.1"
-    version="1.1.0"
-    package="libmatewnck"
+    release="1.22"
+    version="1.22.0"
+    package="libmatemixer"
     # Get
     wget -c https://pub.mate-desktop.org/releases/$release/$package-$version.tar.bz2
     # Extract
@@ -25,9 +27,10 @@
     # Go to inside folder
     cd $package-$version
     # Configure
-    ./autogen.sh --prefix=/usr --sysconfdir=/etc --localstatedir=/var --disable-static
+    ./autogen.sh --prefix=/usr --sysconfdir=/etc
     # Compile
     make
     # Install
     sudo make install
 ```
+

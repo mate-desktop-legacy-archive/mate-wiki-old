@@ -1,36 +1,36 @@
-# mate-doc-utils
+# mate-file-manager
 
 ## Package requirements
 
-  * [mate-common](./mate-common)
+  * [mate-desktop](./mate-desktop)
 
-  * libxml-2.0 >= 2.6.12
+  * intltool >= 0.50.1
 
-  * libxslt
+  * glib-2.0 >= 2.50.0
 
-  * rarian
+  * gthread-2.0
 
-### Ubuntu
+  * gio-unix-2.0
 
-  * libxml2-dev
+  * gio-2.0
 
-  * libxslt1-dev
+  * pango >= 1.1.2
 
-  * automake
+  * gtk+-3.0 >= 3.22.0
 
-  * intltool
+  * libxml-2.0 >= 2.4.7
 
-  * librarian-dev
+  * gail >= 3.0.0
 
 ## Building
 
 ```bash
-$ cat build-mate-doc-utils.sh
+$ cat build-caja.sh
 #!/bin/sh
 # Define version
-release="1.1"
-version="1.1.0"
-package="mate-doc-utils"
+release="1.22"
+version="1.22.0"
+package="caja"
 # Get
 wget -c https://pub.mate-desktop.org/releases/$release/$package-$version.tar.bz2
 # Extract
@@ -39,9 +39,10 @@ tar xvjf $package-$version.tar.bz2
 cd $package-$version
 # Configure
 ./autogen.sh --prefix=/usr --sysconfdir=/etc \
-        --mandir=/usr/share/man --localstatedir=/var --disable-scrollkeeper
+        --localstatedir=/var --disable-static
 # Compile
 make
 # Install
 sudo make install
 ```
+
