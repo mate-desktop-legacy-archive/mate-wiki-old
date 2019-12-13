@@ -2,17 +2,33 @@
 
 ## Package requirements
 
-  * intltool >= 0.40.0
+  * [mate-common](./mate-common)
 
-  * glib-2.0 >= 2.16.0
+  * gettext >= 0.19.8
 
-  * gio-2.0 >= 2.16.0
+  * glib-2.0 >= 2.50.0
 
-  * gtk+-2.0 >= 2.14.0
+  * gio-2.0 >= 2.25.0
+
+  * gtk+-3.0 >= 3.22.0
 
   * dbus-glib-1 >= 0.76
 
-  * upower-glib >= 0.9.0
+  * libX11
+
+  * libSM
+
+  * libICE
+
+  * libXcomposite
+
+  * libXext
+
+  * libXrender
+
+  * systemd / elogind
+
+  * libXtrans
 
 ## Building
 
@@ -21,8 +37,8 @@ build-mate-session-manager.sh
 ```bash
     #!/bin/sh
     # Define version
-    release="1.1"
-    version="1.1.0"
+    release="1.22"
+    version="1.22.0"
     package="mate-session-manager"
     # Get
     wget -c https://pub.mate-desktop.org/releases/$release/$package-$version.tar.bz2

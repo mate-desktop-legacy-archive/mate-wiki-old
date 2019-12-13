@@ -27,8 +27,8 @@ build-mate-settings-daemon.sh
 ```bash
     #!/bin/sh
     # Define version
-    release="1.1"
-    version="1.1.0"
+    release="1.22"
+    version="1.22.0"
     package="mate-settings-daemon"
     # Get
     wget -c https://pub.mate-desktop.org/releases/$release/$package-$version.tar.bz2

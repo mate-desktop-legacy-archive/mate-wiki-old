@@ -1,36 +1,54 @@
-# caja (file-manager)
+# marco (window-manager)
 
 ## Package requirements
 
+  * [mate-common](./mate-common)
+
   * [mate-desktop](./mate-desktop)
 
-  * intltool >= 0.50.1
+  * gettext >= 0.19.8
 
-  * glib-2.0 >= 2.50.0
+  * gio-2.0 >= 2.25.10
 
-  * gthread-2.0
-
-  * gio-unix-2.0
-
-  * gio-2.0
-
-  * pango >= 1.1.2
+  * glib-2.0 >= 2.58.0
 
   * gtk+-3.0 >= 3.22.0
 
-  * libxml-2.0 >= 2.4.7
+  * libcanberra-gtk3
 
-  * gail >= 3.0.0
+  * libgtop-2.0
+
+  * libSM
+
+  * libsoup
+
+  * libXcomposite >= 0.3
+
+  * libXcursor
+
+  * libXdamage
+
+  * libXinerama
+
+  * libXpresent
+
+  * libXrender
+
+  * pango >= 1.1.2
+
+  * startup-notification >= 0.7
+
+  * yelp-tools
 
 ## Building
 
 ```bash
-$ cat build-caja.sh
+$ cat build-marco.sh
 #!/bin/sh
 # Define version
 release="1.22"
 version="1.22.0"
-package="caja"
+package="marco"
 # Get
 wget -c https://pub.mate-desktop.org/releases/$release/$package-$version.tar.bz2
 # Extract

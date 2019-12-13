@@ -2,6 +2,12 @@
 
 ## Package requirements
 
+  * [mate-common](./mate-common)
+
+  * gio-unix-2.0 >= 2.50.0
+
+  * gobject-introspection >= 0.6.7
+
   * intltool >= 0.40.0
 
 ## Building
@@ -11,8 +17,8 @@
 $ cat build-mate-menus.sh
 #!/bin/sh
 # Define version
-release="1.1"
-version="1.1.0"
+release="1.22"
+version="1.22.0"
 package="mate-menus"
 # Get
 wget -c https://pub.mate-desktop.org/releases/$release/$package-$version.tar.bz2
