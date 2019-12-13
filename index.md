@@ -40,6 +40,6 @@ Welcome to [Mate Desktop Environment](https://www.mate-desktop.org/) wiki!
 
   * [Maintainers](pages/maintainers.md), [Distribution Maintainers](pages/distributions.md)
 
-  * [People](pages/users.md), [Google Summer of Code](pages/gsoc.md)
+  * [Google Summer of Code](pages/gsoc.md)
 
   * Other: [Code style](pages/code_style.md), [Deprecated code](pages/deprecated_code.md), [Unused Variables](pages/unused_variables.md)
