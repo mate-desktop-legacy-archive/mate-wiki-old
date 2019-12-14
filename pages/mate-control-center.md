@@ -50,7 +50,7 @@
 
   * libxml-2.0
 
-  * libXScrnSaver
+  * Xss
 
   * pango
 

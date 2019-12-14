@@ -17,7 +17,7 @@
 # Define version
 release="1.23"
 version="1.23.0"
-package="mate-common"
+package="mate-backgrounds"
 # Get
 wget -c https://pub.mate-desktop.org/releases/$release/$package-$version.tar.xz
 # Extract
