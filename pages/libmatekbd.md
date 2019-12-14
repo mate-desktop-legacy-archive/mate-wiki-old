@@ -25,13 +25,13 @@
 ```bash
     #!/bin/sh
     # Define version
-    release="1.22"
-    version="1.22.0"
+    release="1.23"
+    version="1.23.0"
     package="libmatekbd"
     # Get
-    wget -c https://pub.mate-desktop.org/releases/$release/$package-$version.tar.bz2
+    wget -c https://pub.mate-desktop.org/releases/$release/$package-$version.tar.xz
     # Extract
-    tar xvjf $package-$version.tar.bz2
+    tar xvjf $package-$version.tar.xz
     # Go to inside folder
     cd $package-$version
     # Configure

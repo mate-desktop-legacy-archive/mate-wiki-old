@@ -1,25 +1,23 @@
-# mate-menus
+# mate-backgrounds
 
-## Package requirements
+## Source
 
-  * [mate-common](./mate-common)
+<https://github.com/mate-desktop/mate-backgrounds>
 
-  * gio-unix-2.0 >= 2.50.0
+## Package Dependencies
 
-  * gobject-introspection >= 0.6.7
-
-  * intltool >= 0.40.0
+  * gettext >= 0.19.8
 
 ## Building
 
+`build-mate-backgrounds.sh`
 
 ```bash
-$ cat build-mate-menus.sh
 #!/bin/sh
 # Define version
 release="1.23"
 version="1.23.0"
-package="mate-menus"
+package="mate-common"
 # Get
 wget -c https://pub.mate-desktop.org/releases/$release/$package-$version.tar.xz
 # Extract
@@ -27,8 +25,7 @@ tar xvjf $package-$version.tar.xz
 # Go to inside folder
 cd $package-$version
 # Configure
-./autogen.sh --prefix=/usr --sysconfdir=/etc \
-        --localstatedir=/var  --disable-static
+./autogen.sh --prefix=/usr
 # Compile
 make
 # Install

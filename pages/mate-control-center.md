@@ -14,19 +14,31 @@
 
   * [libmatekbd](./libmatekbd)
 
+  * accountsservice
+
+  * appindicator3 >= 3-0.1
+
+  * dbus-1
+
+  * dbus-glib-1
+
+  * dconf >= 0.13.4
+
+  * desktop-file-utils
+
   * gettext >= 0.19.8
+
+  * freetype2
+
+  * gio-2.0
+
+  * gio-unix-2.0
 
   * glib-2.0 >= 2.50.0
 
+  * gthread-2.0
+
   * gtk+-3.0 >= 3.22.0
-
-  * libappindicator >= 0.0.13
-
-  * accountsservice
-
-  * dconf
-
-  * desktop-file-utils
 
   * libcanberra-gtk3 >= 0.4
 
@@ -34,7 +46,19 @@
 
   * libSM
 
+  * libXcursor
+
+  * libxml-2.0
+
   * libXScrnSaver
+
+  * pango
+
+  * polkit-gobject-1
+
+  * libxklavier >= 5.2
+
+  * Xi >= 1.5
 
 ## Building
 
@@ -43,19 +67,18 @@
 ```bash
 #!/bin/sh
 # Define version
-release="1.22"
-version="1.22.0"
+release="1.23"
+version="1.23.0"
 package="mate-control-center"
 # Get
-wget -c https://pub.mate-desktop.org/releases/$release/$package-$version.tar.bz2
+wget -c https://pub.mate-desktop.org/releases/$release/$package-$version.tar.xz
 # Extract
-tar xvjf $package-$version.tar.bz2
+tar xvjf $package-$version.tar.xz
 # Go to inside folder
 cd $package-$version
 # Configure
 ./autogen.sh --prefix=/usr --sysconfdir=/etc \
-        --localstatedir=/var --disable-static \
-        --disable-scrollkeeper
+        --localstatedir=/var --disable-static
 # Compile
 make
 # Install

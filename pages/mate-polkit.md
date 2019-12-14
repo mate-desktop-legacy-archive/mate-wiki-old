@@ -2,7 +2,15 @@
 
 ## Package requirements
 
-  * gtk+-2.0 >= 2.17.1
+  * [mate-common](./mate-common)
+
+  * appindicator3 >= 3-0.1
+
+  * gettext >= 0.19.8
+
+  * glib-2.0 >= 2.50.0
+
+  * gtk+-3.0 >= 3.22.0
 
   * polkit-agent-1 >= 0.97
 
@@ -15,13 +23,13 @@ build-mate-polkit.sh
 ```bash
     #!/bin/sh
     # Define version
-    release="1.1"
-    version="1.1.0"
+    release="1.23"
+    version="1.23.0"
     package="mate-polkit"
     # Get
-    wget -c https://pub.mate-desktop.org/releases/$release/$package-$version.tar.bz2
+    wget -c https://pub.mate-desktop.org/releases/$release/$package-$version.tar.xz
     # Extract
-    tar xvjf $package-$version.tar.bz2
+    tar xvjf $package-$version.tar.xz
     # Go to inside folder
     cd $package-$version
     # Configure
