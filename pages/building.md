@@ -65,7 +65,7 @@ Building order is quite tedious. _Check requirements!_
 
 ### Base
 
-  * [mate-common](pages/mate-common.md)
+  * [mate-common](mate-common.md)
 
   * [mate-desktop](./mate-desktop)
 
