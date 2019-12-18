@@ -2,9 +2,9 @@
 
 ## Package requirements
 
-  * [mate-common](./mate-common)
+  * [mate-common](mate-common.md)
 
-  * [mate-desktop](./mate-desktop)
+  * [mate-desktop](mate-desktop.md)
 
   * gettext >= 0.19.8
 

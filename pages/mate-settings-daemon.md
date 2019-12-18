@@ -2,9 +2,9 @@
 
 ## Package requirements
 
-  * [mate-desktop](./mate-desktop)
+  * [mate-desktop](mate-desktop.md)
 
-  * [libmatemixer](./libmatemixer)
+  * [libmatemixer](libmatemixer.md)
 
   * libnotify >= 0.7.0
 

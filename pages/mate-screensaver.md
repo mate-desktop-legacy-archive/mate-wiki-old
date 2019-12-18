@@ -2,13 +2,13 @@
 
 ## Package requirements
 
-  * [libmatekbd](./libmatekbd)
+  * [libmatekbd](libmatekbd.md)
 
-  * [mate-common](./mate-common)
+  * [mate-common](mate-common.md)
 
-  * [mate-desktop](./mate-desktop)
+  * [mate-desktop](mate-desktop.md)
 
-  * [mate-menus](./mate-menus)
+  * [mate-menus](mate-menus.md)
 
   * dbus-glib-1 >= 0.30
 

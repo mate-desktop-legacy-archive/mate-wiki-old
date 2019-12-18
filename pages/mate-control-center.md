@@ -2,17 +2,17 @@
 
 ## Package requirements
 
-  * [mate-settings-daemon](./mate-settings-daemon)
+  * [mate-settings-daemon](mate-settings-daemon.md)
 
-  * [mate-desktop](./mate-desktop)
+  * [mate-desktop](mate-desktop.md)
 
-  * [mate-menus](./mate-menus)
+  * [mate-menus](mate-menus.md)
 
-  * [marco](./marco)
+  * [marco](marco.md)
 
-  * [mate-settings-daemon](./mate-settings-daemon)
+  * [mate-settings-daemon](mate-settings-daemon.md)
 
-  * [libmatekbd](./libmatekbd)
+  * [libmatekbd](libmatekbd.md)
 
   * accountsservice
 

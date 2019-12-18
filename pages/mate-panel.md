@@ -2,13 +2,13 @@
 
 ## Package requirements
 
-  * [mate-common](./mate-common)
+  * [mate-common](mate-common.md)
 
-  * [libmateweather](./libmateweather)
+  * [libmateweather](libmateweather.md)
 
-  * [mate-desktop](./mate-desktop)
+  * [mate-desktop](mate-desktop.md)
 
-  * [mate-menus](./mate-menus)
+  * [mate-menus](mate-menus.md)
 
   * dconf >= 0.13.4
 

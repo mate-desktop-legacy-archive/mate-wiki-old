@@ -2,9 +2,9 @@
 
 ## Package requirements
 
-  * [mate-common](./mate-common)
+  * [mate-common](mate-common.md)
 
-  * [mate-panel](./mate-panel)
+  * [mate-panel](mate-panel.md)
 
   * gio-2.0 >= 2.50.0
 

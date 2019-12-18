@@ -2,7 +2,7 @@
 
 ## Package requirements
 
-  * [mate-desktop](./mate-desktop)
+  * [mate-desktop](mate-desktop.md)
 
   * intltool >= 0.50.1
 

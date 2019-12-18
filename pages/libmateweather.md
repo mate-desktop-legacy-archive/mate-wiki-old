@@ -2,7 +2,7 @@
 
 ## Package requirements
 
-  * [mate-common](./mate-common)
+  * [mate-common](mate-common.md)
 
   * glib-2.0 >= 2.50.0
 

@@ -2,7 +2,7 @@
 
 ## Package requirements
 
-  * [mate-common](./mate-common)
+  * [mate-common](mate-common.md)
 
   * dconf >= 0.13.4
 

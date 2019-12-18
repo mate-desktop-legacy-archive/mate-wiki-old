@@ -2,7 +2,7 @@
 
 ## Package requirements
 
-  * [mate-common](./mate-common)
+  * [mate-common](mate-common.md)
 
   * appindicator3 >= 3-0.1
 

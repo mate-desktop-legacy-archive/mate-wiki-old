@@ -2,7 +2,7 @@
 
 This script automates the task of building and installing the components of
 Mate desktop in the correct order. If there are packages available for you
-distro ( [Install](./download) ) you should probably use those
+distro ( [Install](download.md) ) you should probably use those
 instead.
 
 To use this first download the Mate-Desktop-Environment files,
@@ -19,7 +19,7 @@ and then run the base-clone (and optionally extra-clone) scripts.
     $ ./extra-clone.sh
 
 Make sure you have all the development packages listed on the
-[Building](./building) page. Then save this script into the mate
+[Building](building.md) page. Then save this script into the mate
 folder as base-build.sh. and run
 
 ```bash
