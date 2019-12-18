@@ -67,75 +67,75 @@ Building order is quite tedious. _Check requirements!_
 
   * [mate-common](mate-common.md)
 
-  * [mate-desktop](mate-desktop)
+  * [mate-desktop](mate-desktop.md)
 
-  * [libmatekbd](libmatekbd)
+  * [libmatekbd](libmatekbd.md)
 
-  * [libmatemixer](libmatemixer)
+  * [libmatemixer](libmatemixer.md)
 
-  * [libmateweather](libmateweather)
+  * [libmateweather](libmateweather.md)
 
-  * [mate-menus](mate-menus)
+  * [mate-menus](mate-menus.md)
 
-  * [caja](caja)
+  * [caja](caja.md)
 
-  * [marco](marco)
+  * [marco](marco.md)
 
-  * [mate-settings-daemon](mate-settings-daemon)
+  * [mate-settings-daemon](mate-settings-daemon.md)
 
-  * [mate-session-manager](mate-session-manager)
+  * [mate-session-manager](mate-session-manager.md)
 
-  * [mate-panel](mate-panel)
+  * [mate-panel](mate-panel.md)
 
-  * [mate-control-center](mate-control-center)
+  * [mate-control-center](mate-control-center.md)
 
 ### Extras
 
-  * [mate-polkit](mate-polkit)
+  * [mate-polkit](mate-polkit.md)
 
-  * [mate-notification-daemon](mate-notification-daemon)
+  * [mate-notification-daemon](mate-notification-daemon.md)
 
-  * [mate-backgrounds](mate-backgrounds)
+  * [mate-backgrounds](mate-backgrounds.md)
 
-  * [mate-themes](mate-themes)
+  * [mate-themes](mate-themes.md)
 
-  * [mate-icon-theme](mate-icon-theme)
+  * [mate-icon-theme](mate-icon-theme.md)
 
-  * [pluma](pluma) (text-editor)
+  * [pluma](pluma) (text-editor.md)
 
-  * [mate-terminal](mate-terminal)
+  * [mate-terminal](mate-terminal.md)
 
-  * [mate-screensaver](mate-screensaver)
+  * [mate-screensaver](mate-screensaver.md)
 
-  * [mate-calc](mate-calc)
+  * [mate-calc](mate-calc.md)
 
-  * [mate-utils](mate-utils)
+  * [mate-utils](mate-utils.md)
 
-  * [mate-system-monitor](mate-system-monitor)
+  * [mate-system-monitor](mate-system-monitor.md)
 
-  * [eom](eom) (image-viewer)
+  * [eom](eom.md) (image-viewer)
 
-  * [engrampa](engrampa) (file-archiver)
+  * [engrampa](engrampa.md) (file-archiver)
 
-  * [atril](atril) (document-viewer)
+  * [atril](atril.md) (document-viewer)
 
-  * [mate-user-share](mate-user-share)
+  * [mate-user-share](mate-user-share.md)
 
-  * [mate-media](mate-media)
+  * [mate-media](mate-media.md)
 
-  * [mate-power-manager](mate-power-manager)
+  * [mate-power-manager](mate-power-manager.md)
 
-  * [python-caja](python-caja) (ex python-nautilus)
+  * [python-caja](python-caja.md)
 
-  * [mozo](mozo) (menu-editor)
+  * [mozo](mozo.md) (menu-editor)
 
-  * [mate-applets](mate-applets) (extra panel applets)
+  * [mate-applets](mate-applets.md) (extra panel applets)
 
-  * [mate-sensors-applet](mate-sensors-applet)
+  * [mate-sensors-applet](mate-sensors-applet.md)
 
-  * [mate-indicator-applet](mate-indicator-applet)
+  * [mate-indicator-applet](mate-indicator-applet.md)
 
-  * [caja-dropbox](caja-dropbox)
+  * [caja-dropbox](caja-dropbox.md)
 
 ## HAX!
 
@@ -164,7 +164,7 @@ Edit ./configure if you want. You can prevent GNOME conflicts by adding
 
 Now, you can run “build” to install quickly.
 
-Get [Mate sources here](download).
+Get [Mate sources here](download.md).
 
 ## Moar HAX!
 
@@ -256,4 +256,4 @@ uninstall with “make uninstall” as root user where you did the “make insta
 
 ## Build Script
 
-You may find this [Build Script](buildscript) useful.
+You may find this [Build Script](buildscript.md) useful.
