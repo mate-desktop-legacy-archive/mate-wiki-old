@@ -1,7 +1,7 @@
 # Building
 
 Like in most linux projects, you can build, compile and install with
-`./autogen.sh && make && make install`. By the way, you may need to setup some
+`autogen.sh && make && make install`. By the way, you may need to setup some
 things. Follow each package guide to get a clean install.
 
 _Remember, compiling can be stressful._
@@ -67,75 +67,75 @@ Building order is quite tedious. _Check requirements!_
 
   * [mate-common](mate-common.md)
 
-  * [mate-desktop](./mate-desktop)
+  * [mate-desktop](mate-desktop)
 
-  * [libmatekbd](./libmatekbd)
+  * [libmatekbd](libmatekbd)
 
-  * [libmatemixer](./libmatemixer)
+  * [libmatemixer](libmatemixer)
 
-  * [libmateweather](./libmateweather)
+  * [libmateweather](libmateweather)
 
-  * [mate-menus](./mate-menus)
+  * [mate-menus](mate-menus)
 
-  * [caja](./caja)
+  * [caja](caja)
 
-  * [marco](./marco)
+  * [marco](marco)
 
-  * [mate-settings-daemon](./mate-settings-daemon)
+  * [mate-settings-daemon](mate-settings-daemon)
 
-  * [mate-session-manager](./mate-session-manager)
+  * [mate-session-manager](mate-session-manager)
 
-  * [mate-panel](./mate-panel)
+  * [mate-panel](mate-panel)
 
-  * [mate-control-center](./mate-control-center)
+  * [mate-control-center](mate-control-center)
 
 ### Extras
 
-  * [mate-polkit](./mate-polkit)
+  * [mate-polkit](mate-polkit)
 
-  * [mate-notification-daemon](./mate-notification-daemon)
+  * [mate-notification-daemon](mate-notification-daemon)
 
-  * [mate-backgrounds](./mate-backgrounds)
+  * [mate-backgrounds](mate-backgrounds)
 
-  * [mate-themes](./mate-themes)
+  * [mate-themes](mate-themes)
 
-  * [mate-icon-theme](./mate-icon-theme)
+  * [mate-icon-theme](mate-icon-theme)
 
-  * [pluma](./pluma) (text-editor)
+  * [pluma](pluma) (text-editor)
 
-  * [mate-terminal](./mate-terminal)
+  * [mate-terminal](mate-terminal)
 
-  * [mate-screensaver](./mate-screensaver)
+  * [mate-screensaver](mate-screensaver)
 
-  * [mate-calc](./mate-calc)
+  * [mate-calc](mate-calc)
 
-  * [mate-utils](./mate-utils)
+  * [mate-utils](mate-utils)
 
-  * [mate-system-monitor](./mate-system-monitor)
+  * [mate-system-monitor](mate-system-monitor)
 
-  * [eom](./eom) (image-viewer)
+  * [eom](eom) (image-viewer)
 
-  * [engrampa](./engrampa) (file-archiver)
+  * [engrampa](engrampa) (file-archiver)
 
-  * [atril](./atril) (document-viewer)
+  * [atril](atril) (document-viewer)
 
-  * [mate-user-share](./mate-user-share)
+  * [mate-user-share](mate-user-share)
 
-  * [mate-media](./mate-media)
+  * [mate-media](mate-media)
 
-  * [mate-power-manager](./mate-power-manager)
+  * [mate-power-manager](mate-power-manager)
 
-  * [python-caja](./python-caja) (ex python-nautilus)
+  * [python-caja](python-caja) (ex python-nautilus)
 
-  * [mozo](./mozo) (menu-editor)
+  * [mozo](mozo) (menu-editor)
 
-  * [mate-applets](./mate-applets) (extra panel applets)
+  * [mate-applets](mate-applets) (extra panel applets)
 
-  * [mate-sensors-applet](./mate-sensors-applet)
+  * [mate-sensors-applet](mate-sensors-applet)
 
-  * [mate-indicator-applet](./mate-indicator-applet)
+  * [mate-indicator-applet](mate-indicator-applet)
 
-  * [caja-dropbox](./caja-dropbox)
+  * [caja-dropbox](caja-dropbox)
 
 ## HAX!
 
@@ -164,7 +164,7 @@ Edit ./configure if you want. You can prevent GNOME conflicts by adding
 
 Now, you can run “build” to install quickly.
 
-Get [Mate sources here](./download).
+Get [Mate sources here](download).
 
 ## Moar HAX!
 
@@ -180,7 +180,7 @@ Regenerate Makefile.in
     
   $ autoconf
 
-Regenerate ./configure
+Regenerate configure
 
     
     
@@ -256,4 +256,4 @@ uninstall with “make uninstall” as root user where you did the “make insta
 
 ## Build Script
 
-You may find this [Build Script](./buildscript) useful.
+You may find this [Build Script](buildscript) useful.
