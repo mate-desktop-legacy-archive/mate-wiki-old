@@ -57,11 +57,11 @@ To build the extras you will also need:
     poppler-glib-devel libgtop2-devel gtkmm30-devel vte291-devel enchant-devel iso-codes-devel gtksourceview3-devel
 ```
 
-## Building order
+## Building order / Build requirements
 
 Building order is quite tedious. _Check requirements!_
 
-#### Updated Build instructions for 1.23
+#### Updated Build requirements for 1.23
 
 ### Base
 
