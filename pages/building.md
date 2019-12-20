@@ -61,7 +61,7 @@ To build the extras you will also need:
 
 Building order is quite tedious. _Check requirements!_
 
-#### Updated Build instructions for 1.22
+#### Updated Build instructions for 1.23
 
 ### Base
 
@@ -166,7 +166,6 @@ Now, you can run “build” to install quickly.
 
 Get [Mate sources here](download.md).
 
-## Moar HAX!
 
 If you had problems while compiling, try to run these commands on source path:
 
@@ -256,4 +255,4 @@ uninstall with “make uninstall” as root user where you did the “make insta
 
 ## Build Script
 
-You may find this [Build Script](buildscript.md) useful.
+You may find this [Build Script](buildscript.md) useful (deprecated, some parts needs updating).

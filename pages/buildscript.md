@@ -1,5 +1,7 @@
 # Build Script
 
+(deprecated, some parts needs updating)
+
 This script automates the task of building and installing the components of
 Mate desktop in the correct order. If there are packages available for you
 distro ( [Install](download.md) ) you should probably use those
