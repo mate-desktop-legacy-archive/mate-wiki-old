@@ -61,7 +61,7 @@ To build the extras you will also need:
 
 Building order is quite tedious. _Check requirements!_
 
-#### Updated Build requirements for 1.23
+Updated Build requirements for 1.23
 
 ### Base
 
