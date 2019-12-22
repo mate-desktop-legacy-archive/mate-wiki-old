@@ -215,11 +215,21 @@ Problems finding the libraries of bits you have already build and installed:
 
     
     
-    configure: error: Package requirements
-    (glib-2.0 > 2.14.0 gio-2.0 >= 2.25.9 gthread-2.0
-    gmodule-2.0 >= 2.7.0 gobject-2.0 >= 2.7.0 MateCORBA-2.0)
-    were not met:
-    No package 'glib-2.0' found
+   configure: error: Package requirements (
+       glib-2.0 >= 2.58.1
+       mate-desktop-2.0 >= 1.17.3
+       gthread-2.0
+       gio-unix-2.0
+       gio-2.0 >= 2.50.0
+       pango >= 1.1.2
+       gtk+-3.0 >= 3.22.0
+       libnotify
+       libxml-2.0 >= 2.4.7
+       gail-3.0 >= 3.0.0
+   ) were not met:
+
+Package 'mate-desktop-2.0', required by 'virtual:world', not found
+
 
 try setting PKG_CONFIG_PATH. Adjust to the prefix you are installing to.
 
@@ -232,17 +242,17 @@ Problems with missing python libraries:
     
     
     Traceback (most recent call last):
-      File "/usr/local/bin/xml2po", line 191, in <module>
+      File "/usr/local/bin/rst2html", line 191, in <module>
         main(sys.argv[1:])
-      File "/usr/local/bin/xml2po", line 88, in main
-        from xml2po import Main
-    ImportError: No module named xml2po
+      File "/usr/local/bin/rst2html", line 88, in main
+        from rst2html import Main
+    ImportError: No module named rst2html
 
 try setting PYTHONPATH. Adjust to the prefix you are installing to.
 
     
     
-  $ export PYTHONPATH=${PYTHONPATH}:/usr/local/lib/python2.7/site-packages/
+  $ export PYTHONPATH=${PYTHONPATH}:/usr/local/lib64/python3.7/site-packages/
 
 ## Uninstall
 
