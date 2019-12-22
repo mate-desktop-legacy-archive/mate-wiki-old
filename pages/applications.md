@@ -6,7 +6,7 @@ they were forked.
 
 Icon in MATE |  GNOME 2.32 |  MATE |  Translation to English |  Type
 ---|---|---|---|---
-![](media/mozo.png)| Alacarte (alacarte)| Mozo (mozo)| boy| Menu editor
+![](images/mozo.png)| Alacarte (alacarte)| Mozo (mozo)| boy| Menu editor
 ![](media/desktop.png)| About GNOME (gnome-about)| About MATE (mate-about)|  |
 ![](media/mate-disk-usage-analyzer.png)| Baobab (baobab)| Disk Usage Analyzer (mate-disk-usage-analyzer)|  | Disk usage analyzer
 ![](media/calc.png)| Calculator (gcalctool)| Calculator (mate-calc)|  | Calculator
