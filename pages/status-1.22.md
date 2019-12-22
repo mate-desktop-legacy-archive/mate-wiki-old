@@ -1,6 +1,6 @@
 # Status of MATE 1.22
 
-Status of ongoing development of the 1.22 release of MATE.
+Status of 1.22 release of MATE.
 
 _Note:_ Packages are listed in build order.
 
