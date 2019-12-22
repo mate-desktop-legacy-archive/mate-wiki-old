@@ -103,4 +103,4 @@ closed.
 ## Mate Documentation Team
 
 The MATE Documentation Team is beginning to form. A link to team guidelines
-will be here: [ Mate Documentation Team Guide](dev-doc-doc-team-guide)
+will be here: [Mate Documentation Team Guide](dev-doc-doc-team-guide.md)
