@@ -28,9 +28,9 @@ Welcome to [Mate Desktop Environment](https://www.mate-desktop.org/) wiki!
 
   * Source code: [GitHub](https://github.com/mate-desktop/), [git.mate-desktop.org](https://git.mate-desktop.org/)
 
-  * Stable release: [Status of MATE 1.16](pages/status-1.16.md)
+  * Stable release: [Status of MATE 1.22](pages/status-1.22.md)
 
-  * Unstable release: [Status of MATE 1.18](pages/status-1.18.md)
+  * Unstable development release: [Status of MATE 1.23](pages/status-1.23.md)
 
   * [Building](pages/building.md), [Debug](pages/debug.md)
 
