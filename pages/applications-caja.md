@@ -1,6 +1,6 @@
 # Caja
 
-**Caja** is the MATE file manager, based on [Nautilus](https://live.gnome.org/Nautilus) 2.32.
+**Caja** is the MATE file manager, based on nautilus-2.32.
 
   * [Report a bug](https://github.com/mate-desktop/caja/issues)
 
@@ -16,6 +16,10 @@
 
   * caja-share
 
+  * caja-wallpaper
+
+  * caja-xattr-tags
+
 ## Development
 
 ### Debug
@@ -29,7 +33,7 @@
 
 #### Enable debug log
 
-Caja has a debug logging infrastructure that come from [Nautilus](https://live.gnome.org/Nautilus/Development/Bugs). If Caja
+Caja has a debug logging infrastructure that come from nautilus. If Caja
 crashes, it will write a `~/caja-debug-log.txt` file which you can attach to a
 bug report. This file contains a log of your last actions, and additional
 information which may be useful to debug the problem. You can also send a
@@ -51,8 +55,6 @@ The available log domains are these:
   * **GLog** \- only used to get g_debug() messages included in the log; they are excluded by default. Other GLog output is included as it usually consists of important messages.
 
 ### Caja internals
-
-This section is a fork of [Nautilus development page](https://live.gnome.org/Nautilus/Development/Nautilus).
 
 ```
     |-- ChangeLog                      # what happend (also see svn log)
