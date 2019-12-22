@@ -1,6 +1,6 @@
 ### MATE Development
 
-#### Versioning and Releases
+## Versioning and Releases
 
   * Even numbered releases represent the current stable release. For example, 1.6.0, 1.6.1, etc.
 
@@ -10,7 +10,7 @@
 
   * Only one stable release is supported at a time. Once a new stable release is made, it immediately obsoletes the previous stable release.
 
-#### Overview of Development Cycle
+## Overview of Development Cycle
 
   1. Stable release made
 
@@ -22,7 +22,7 @@
 
   5. New stable release made
 
-#### [Roadmap](./roadmap)
+## [Roadmap](roadmap.md)
 
 MATE defines the goals for the next release on its roadmap. New items should
 never be added to this roadmap without the permission of project leadership.
@@ -41,7 +41,7 @@ Roadmap goals are determine by:
 
   * Developer project ideas
 
-#### Git
+## Git
 
   * The master branch is our development branch. It represents the most up-to-date code, but is not considered stable.
 
@@ -55,7 +55,7 @@ Roadmap goals are determine by:
 
   * For prospective developers who are not in the github developers team, pull requests can be made. Please make sure that you base your pull request against the correct branch.
 
-#### Communicating
+## Communicating
 
 Development discussions take place in two locations:
 
@@ -68,7 +68,7 @@ This helps expedite the development process and coordinate development
 resources. Please note that #mate-dev is for development discussion only; off-
 topic and support related discussions should take place in #mate.
 
-#### QA
+## QA
 
 Quality Assurance is achieved through the following methods:
 
@@ -80,7 +80,7 @@ Quality Assurance is achieved through the following methods:
 
   * Prior to a new release, all developers do a clean install of the next release on the distribution(s) of their choice. They also must perform an upgrade from the current release
 
-#### Style Guidelines
+## Style Guidelines
 
 MATE is not particularly draconian about how you format your code, but we do
 ask that you put an effort into code readability as well as internal
@@ -88,7 +88,7 @@ documentation (comments). Code that is a nightmare to read will not be
 accepted. If a particular snippet of code is critical, confusing, etc. please
 document what that code does and why the decision was made.
 
-#### Github Issues
+## Github Issues
 
 We use github as our bug tracker. We use labels to define bugs as “confirmed”,
 “unconfirmed”, and “feature requests”. If a newly opened issue is a bug, then
@@ -100,10 +100,7 @@ Please do not be terse in your responses to issues. Even if the user opened an
 issue for some inane reasons, please explain to them why the issue is being
 closed.
 
-We want to avoid this sort of fallout:
-<https://bugzilla.gnome.org/show_bug.cgi?id=698544>
-
-#### Mate Documentation Team
+## Mate Documentation Team
 
 The MATE Documentation Team is beginning to form. A link to team guidelines
-will be here: [ Mate Documentation Team Guide](./dev-doc-doc-team-guide)
+will be here: [ Mate Documentation Team Guide](dev-doc-doc-team-guide)

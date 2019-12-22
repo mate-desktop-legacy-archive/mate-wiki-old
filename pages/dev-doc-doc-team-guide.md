@@ -2,23 +2,20 @@
 
 MATE Documentation Team Members
 
-  * stefano-k
+  * flexiondotorg
 
-  * infirit
+  * monsta
 
   * raveit65
 
-  * flexiondotorg
+  * rbuj
 
-  * MotoHoss
+  * selectiveduplicate
 
-  * hekel
+  * vkareh
 
-  * Texou
 
-  * <others tbd> ubuntu folks flexiondotorg has mentioned + anyone else (of course real names as the project progresses)
-
-back to [MATE Development](./dev-doc)
+back to [MATE Development](dev-doc.md)
 
 ## Project Home (master)
 
@@ -48,7 +45,7 @@ back to [MATE Development](./dev-doc)
 
       * <https://stackoverflow.com/questions/8917342/export-page-to-html>
 
-  * [MATE Development](./dev-doc)
+  * [MATE Development](dev-doc.md)
 
   * git/github
 
@@ -56,16 +53,16 @@ back to [MATE Development](./dev-doc)
 
     * Wiki &/or dedicated sub-domain should 'mirror' the mate-user-guide.
 
-  * Status page for mate-user-guide: [Mate Documentation Team Status Page](./status-doc-team)
+  * Status page for mate-user-guide: [Mate Documentation Team Status Page](status-doc-team)
 
 ## Project Outline
 
 Item | Value/Detail | Progress/Activity | Log
 ---|---|---|---
-**A:** |  Defaults | Complete |  see thread below and [doc-team-guide](./dev-doc-doc-team-guide)
-**Section B:** |  Original Source | Complete |  [doc-team-guide](./dev-doc-doc-team-guide)
+**A:** |  Defaults | Complete |  see thread below and [doc-team-guide](dev-doc-doc-team-guide.md)
+**Section B:** |  Original Source | Complete |  [doc-team-guide](dev-doc-doc-team-guide.md)
 **Section C:** |  Organization | In Progress | Log
-**Section D:** |  Transifex | TBD | [doc-team-guide](./dev-doc-doc-team-guide)
+**Section D:** |  Transifex | TBD | [doc-team-guide](dev-doc-doc-team-guide.md)
 **Section E:** |  Help Links | In Progress | Log
 **Section F:** |  Other Uses | Done | Log
 **Section G:** |  Manpages | In Progress | Log
@@ -105,17 +102,17 @@ pluma |
 etc |  
   
 **_Strike throughs are now on the status page. If you notice any that are not
-please _fix_ it._**![=\)](./images/smileys/icon_smile2.gif)
+please _fix_ it._**![=\)](images/smileys/icon_smile2.gif)
 
 ### C: Organization
 
   1. ~~Decide best method to divide and conquer workload-~~
 
-  2. ~~<https://wiki.mate-desktop.org/dev-doc> needs editing so there is a link~~
+  2. ~~<https://wiki.mate-desktop.org/#!pages/dev-doc.md> needs editing so there is a link~~
 
-  3. ~~to this page(this document)<https://wiki.mate-desktop.org/dev-doc:doc-team-guide> and it needs a link~~
+  3. ~~to this page(this document)<https://wiki.mate-desktop.org/#!pages/dev-doc-doc-team-guide.md> and it needs a link~~
 
-  4. ~~to this page<https://wiki.mate-desktop.org/status:doc-team> for tracking the status.~~
+  4. ~~to this page<https://wiki.mate-desktop.org/#!pages/status-doc-team.md> for tracking the status.~~
 
   5. Mate Doc Team How to contribute examples/explanation
 
@@ -168,7 +165,7 @@ please _fix_ it._**![=\)](./images/smileys/icon_smile2.gif)
 
   2. M-U-G can be used in dokuwiki(wiki.mate-desktop.org)
 
-    1. need to make sure the info already @ [wiki.mate-desktop.org/docs](https://wiki.mate-desktop.org/docs) is incorporated into/covered by the M-U-G
+    1. need to make sure the info already @ [wiki.mate-desktop.org/docs](https://wiki.mate-desktop.org/#!pages/docs.md) is incorporated into/covered by the M-U-G
 
   3. M-U-G can be used in another sub-domain
 
@@ -192,4 +189,4 @@ please _fix_ it._**![=\)](./images/smileys/icon_smile2.gif)
 
 * * *
 
-[Docs](https://wiki.mate-desktop.org/#!pages/docs.md)
+[Docs](docs.md)
