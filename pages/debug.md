@@ -2,9 +2,9 @@
 
 This page contains some tips to help to debug MATE issues
 
-## mate-file-manager (caja)
+## caja (mate-file-manager)
 
-See [Caja debug](./applications-caja.md#Debug).
+See [Caja debug](applications-caja.md#Debug).
 
 ```bash
 gdb caja `pidof caja`
@@ -24,7 +24,7 @@ killall mate-settings-daemon
 mate-settings-daemon --no-daemon --debug
 ```
 
-## mate-window-manager (marco)
+## marco (window-manager)
 
 ```bash
 MARCO_DEBUG=1 marco --replace

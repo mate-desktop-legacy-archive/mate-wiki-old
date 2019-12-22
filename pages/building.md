@@ -65,77 +65,77 @@ Updated Build requirements for 1.23
 
 ### Base
 
-  * [mate-common](mate-common.md)
+  * [mate-common](building-mate-common.md)
 
-  * [mate-desktop](mate-desktop.md)
+  * [mate-desktop](building-mate-desktop.md)
 
-  * [libmatekbd](libmatekbd.md)
+  * [libmatekbd](building-libmatekbd.md)
 
-  * [libmatemixer](libmatemixer.md)
+  * [libmatemixer](building-libmatemixer.md)
 
-  * [libmateweather](libmateweather.md)
+  * [libmateweather](building-libmateweather.md)
 
-  * [mate-menus](mate-menus.md)
+  * [mate-menus](building-mate-menus.md)
 
-  * [caja](caja.md)
+  * [caja](building-caja.md)
 
-  * [marco](marco.md)
+  * [marco](building-marco.md)
 
-  * [mate-settings-daemon](mate-settings-daemon.md)
+  * [mate-settings-daemon](building-mate-settings-daemon.md)
 
-  * [mate-session-manager](mate-session-manager.md)
+  * [mate-session-manager](building-mate-session-manager.md)
 
-  * [mate-panel](mate-panel.md)
+  * [mate-panel](building-mate-panel.md)
 
-  * [mate-control-center](mate-control-center.md)
+  * [mate-control-center](building-mate-control-center.md)
 
 ### Extras
 
-  * [mate-polkit](mate-polkit.md)
+  * [mate-polkit](building-mate-polkit.md)
 
-  * [mate-notification-daemon](mate-notification-daemon.md)
+  * [mate-notification-daemon](building-mate-notification-daemon.md)
 
-  * [mate-backgrounds](mate-backgrounds.md)
+  * [mate-backgrounds](building-mate-backgrounds.md)
 
-  * [mate-themes](mate-themes.md)
+  * [mate-themes](building-mate-themes.md)
 
-  * [mate-icon-theme](mate-icon-theme.md)
+  * [mate-icon-theme](building-mate-icon-theme.md)
 
-  * [pluma](pluma) (text-editor.md)
+  * [pluma](building-pluma.md) (text-editor)
 
-  * [mate-terminal](mate-terminal.md)
+  * [mate-terminal](building-mate-terminal.md)
 
-  * [mate-screensaver](mate-screensaver.md)
+  * [mate-screensaver](building-mate-screensaver.md)
 
-  * [mate-calc](mate-calc.md)
+  * [mate-calc](building-mate-calc.md)
 
-  * [mate-utils](mate-utils.md)
+  * [mate-utils](building-mate-utils.md)
 
-  * [mate-system-monitor](mate-system-monitor.md)
+  * [mate-system-monitor](building-mate-system-monitor.md)
 
-  * [eom](eom.md) (image-viewer)
+  * [eom](building-eom.md) (image-viewer)
 
-  * [engrampa](engrampa.md) (file-archiver)
+  * [engrampa](building-engrampa.md) (file-archiver)
 
-  * [atril](atril.md) (document-viewer)
+  * [atril](building-atril.md) (document-viewer)
 
-  * [mate-user-share](mate-user-share.md)
+  * [mate-user-share](building-mate-user-share.md)
 
-  * [mate-media](mate-media.md)
+  * [mate-media](building-mate-media.md)
 
-  * [mate-power-manager](mate-power-manager.md)
+  * [mate-power-manager](building-mate-power-manager.md)
 
-  * [python-caja](python-caja.md)
+  * [python-caja](building-python-caja.md)
 
-  * [mozo](mozo.md) (menu-editor)
+  * [mozo](building-mozo.md) (menu-editor)
 
-  * [mate-applets](mate-applets.md) (extra panel applets)
+  * [mate-applets](building-mate-applets.md) (extra panel applets)
 
-  * [mate-sensors-applet](mate-sensors-applet.md)
+  * [mate-sensors-applet](building-mate-sensors-applet.md)
 
-  * [mate-indicator-applet](mate-indicator-applet.md)
+  * [mate-indicator-applet](building-mate-indicator-applet.md)
 
-  * [caja-dropbox](caja-dropbox.md)
+  * [caja-dropbox](building-caja-dropbox.md)
 
 ## HAX!
 
@@ -265,4 +265,4 @@ uninstall with “make uninstall” as root user where you did the “make insta
 
 ## Build Script
 
-You may find this [Build Script](buildscript.md) useful (deprecated, some parts needs updating).
+You may find this [Build Script](building-buildscript.md) useful (deprecated, some parts needs updating).
