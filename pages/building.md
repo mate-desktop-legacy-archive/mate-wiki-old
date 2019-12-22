@@ -214,7 +214,7 @@ try fixing the ACLOCAL_FLAGS. Adjust to the prefix you are installing to.
 Problems finding the libraries of bits you have already build and installed:
 
     
-    
+```    
    configure: error: Package requirements (
        glib-2.0 >= 2.58.1
        mate-desktop-2.0 >= 1.17.3
@@ -229,7 +229,7 @@ Problems finding the libraries of bits you have already build and installed:
    ) were not met:
 
 Package 'mate-desktop-2.0', required by 'virtual:world', not found
-
+```
 
 try setting PKG_CONFIG_PATH. Adjust to the prefix you are installing to.
 
