@@ -15,19 +15,20 @@ Icon in MATE |  GNOME 2.32 |  MATE |  Translation to English |  Type
 ![](media/image.png)| Eye of GNOME (eog)| Eye of MATE (eom)|  | Image viewer
 ![](media/zip.png)| File Roller (file-roller)| Engrampa (engrampa)| clip together| File archive manager
 ![](media/text-editor.png)| Gedit (gedit)| Pluma (pluma)| pen| Text editor
-![](media/marco.png)| Metacity (metacity)| [Marco (marco)](./applications-marco.md)| framework, frame| Window manager
-![](media/system-file-manager.png)| Nautilus (nautilus)| [Caja (caja)](./applications-caja.md)| box| File manager
+![](media/marco.png)| Metacity (metacity)| [Marco (marco)](applications-marco.md)| framework, frame| Window manager
+![](media/system-file-manager.png)| Nautilus (nautilus)| [Caja (caja)](applications-caja.md)| box| File manager
 ![](media/applets-screenshooter.png)| Take Screenshot (gnome-screenshot)| Take Screenshot (mate-screenshot)|  | Screen capture tool
 ![](media/terminal.png)| Terminal (gnome-terminal)| Terminal (mate-terminal)|  | Command-line interface shell
 
-[mate-panel](applications/mate-panel.md)
+[mate-panel](applications-mate-panel.md)
 
 ## Applets
 
 Icon in MATE |  GNOME 2.32 |  MATE Translation to English |  Type
 ---|---|---|---|---
 ![](media/mateweather.png)| gweather| mateweather| Panel weather applet
-![](media/mate-netspeed-applet.png)| gnome-netspeed-applet| [mate-netspeed-applet](./docs-mate-netspeed.md)| View internet speed
+![](media/mate-netspeed-applet.png)| gnome-netspeed-applet| [mate-netspeed-applet](docs-mate-netspeed.md)| View internet speed
+![](media/mate-netspeed-applet.png)| gnome-sensors-applet| [mate-sensors-applet](docs-mate-sensors-applet.md)| View hardware sensors
 ![](media/mate-inhibit-applet.png)| gnome-inhibit-applet| mate-inhibit-applet| Allows user to inhibit automatic power saving
 ![](media/user-trash-full.png)| gnome-trash-applet| mate-trash-applet| Shortcut to Trash
 ![](media/mate-panel-notification-area.png)| gnome-panel-notification-area| mate-panel-notification-area| Area where notification icons appear
