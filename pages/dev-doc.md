@@ -22,7 +22,9 @@
 
   5. New stable release made
 
-## [Roadmap](roadmap.md)
+## Roadmap
+
+  * [Roadmap](pages/roadmap.md)
 
 MATE defines the goals for the next release on its roadmap. New items should
 never be added to this roadmap without the permission of project leadership.
