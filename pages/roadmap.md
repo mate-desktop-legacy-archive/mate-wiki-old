@@ -7,9 +7,9 @@ the forum or the IRC chat to ask for new features.
 
   * Migrate remaining projects from dbus-glib to GDBus
 
-  * caja: add option to show thumbnails in listview ([#153](https://github.com/mate-desktop/caja/issues/153))
+  * ~~caja: add option to show thumbnails in listview ([#153](https://github.com/mate-desktop/caja/issues/153))~~
 
-  * mate-applets: make command applet run commands asynchronously ([#163](https://github.com/mate-desktop/mate-applets/issues/163))
+  * ~~mate-applets: make command applet run commands asynchronously ([#163](https://github.com/mate-desktop/mate-applets/issues/163))~~
 
   * mate-panel: fix remaining vertical panel issues ([#157](https://github.com/mate-desktop/mate-panel/issues/157))
 
