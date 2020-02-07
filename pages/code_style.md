@@ -42,17 +42,6 @@ So these functions should be easy to understand
 
 Use whatever you want.
 
-## Use tabs after each line break, and space to align code hard to read
-
-```
-    if (declaration_is_true(some_value))
-    {
-    	static char             b; // <tab> <spaces>
-    	int                     a; // <tab> <spaces>
-    	unsigned int            some_long_value; // <tab> <spaces>
-    	struct my_custom_struct some_misterious_struct;
-```
-
 ## Long line is fine too
 
 large declarations show you how much of the stack a function uses, so deal
