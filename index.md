@@ -32,7 +32,7 @@ Welcome to [Mate Desktop Environment](https://www.mate-desktop.org/) wiki!
 
   * Unstable development release: [Status of MATE 1.23](pages/status-1.23.md)
 
-  * [Building](pages/building.md), [Debug](pages/debug.md)
+  * [Building](pages/building.md), [Debug](pages/debug.md), [Debug on Eclipse IDE](pages/debug-eclipse.md)
 
   * [Contribute](pages/contribute.md)
 
