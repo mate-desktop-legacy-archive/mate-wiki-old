@@ -2,6 +2,8 @@ Welcome to [Mate Desktop Environment](https://www.mate-desktop.org/) wiki!
 
 ## Documentation
 
+  * JUST TEST WIKI PREVIEW WEBSITE.
+
   * [Installation](pages/download.md)
 
   * [Manuals](pages/docs.md)
