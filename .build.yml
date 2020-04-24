@@ -1,0 +1,16 @@
+##########################################################
+# THE FOLLOWING LINES IS USED BY docker-build
+##########################################################
+build_scripts:
+  - cd ${START_DIR}
+  - if [[ "$TRAVIS_SECURE_ENV_VARS" == "true" && "$TRAVIS_BRANCH" != "master" ]]; then
+  -     cp -f static/html/index.prev.html index.html
+  -     sed -i 's!PREVIEW_COMMITID!'${TRAVIS_COMMIT:0:12}'!' index.html
+  - fi
+
+after_scripts:
+  - cd ${START_DIR}
+  - if [[ "$TRAVIS_SECURE_ENV_VARS" == "true" && "$TRAVIS_BRANCH" != "master" ]]; then
+  -     echo 'wiki.mate-desktop.dev' > CNAME
+  - fi
+  - rm -f docker-build build_scripts after_scripts
