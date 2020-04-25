@@ -12,5 +12,5 @@ after_scripts:
   - cd ${START_DIR}
   - if [[ "$TRAVIS_SECURE_ENV_VARS" == "true" && "$TRAVIS_BRANCH" != "master" ]]; then
   -     echo 'wiki.mate-desktop.dev' > CNAME
+  -     rm -rf .git docker-build build_scripts after_scripts
   - fi
-  - rm -f docker-build build_scripts after_scripts

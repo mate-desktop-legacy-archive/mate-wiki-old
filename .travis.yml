@@ -25,7 +25,7 @@ deploy:
     edge: true
     token: $GITHUB_TOKEN
     keep_history: false
-    repo: mate-desktop/mate-wiki-pre
+    repo: mate-desktop/mate-wiki-preview
     committer_from_gh: true
     target_branch: gh-pages
     strategy: git
