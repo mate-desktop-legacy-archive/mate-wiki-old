@@ -1,11 +1,13 @@
 # IRC
 
 Come and join us and discuss, lurk or ask for support about MATE with us on
-IRC in our channel.
+IRC or Matrix in our channel.
 
 ## Server
 
-All MATE channels are on [irc.freenode.net](https://freenode.net/) server.
+All MATE channels are on the [irc.libera.chat](https://libera.chat/) server.
+
+They are also available on the libera.chat Matrix server.
 
 ## Main channel
 

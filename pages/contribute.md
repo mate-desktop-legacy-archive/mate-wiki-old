@@ -2,8 +2,8 @@
 
 MATE Desktop uses [git](https://git-scm.com/) as its
 version control system, and [GitHub](https://github.com/mate-desktop)
-for repositories hosting. The best place to
-ask for development help is on IRC #mate-dev channel (irc.freenode.net).
+for repositories hosting. The best place to ask for development help is on
+the IRC #mate-dev at irc.libera.chat or Matrix #mate-dev:libera.chat channels.
 
 ## Code
 

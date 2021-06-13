@@ -58,7 +58,7 @@ Reserved/Golden |  | reserved
 
   5. Of course layout and link improvements are needed.
 
-  6. We have a channel specifically for the guide folks @ **freenode/#mate-mug**. If you have any questions,problems,comments,restless fingers… please visit and join the conversation.
+  6. We have a channel specifically for the guide folks @ **libera/#mate-mug**. If you have any questions,problems,comments,restless fingers… please visit and join the conversation.
 
 ## Figures List
 

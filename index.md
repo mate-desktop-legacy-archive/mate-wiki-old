@@ -18,7 +18,7 @@ Welcome to [Mate Desktop Environment](https://www.mate-desktop.org/) wiki!
 
 ## Support
 
-  * [IRC](pages/irc.md): Join #mate channel on irc.freenode.net ([Webchat](https://webchat.freenode.net?randomnick=1&channels=mate&prompt=1))
+  * [IRC](pages/irc.md): Join the #mate channel at irc.libera.chat ([Webchat](https://web.libera.chat/?#mate), [Matrix](https://matrix.to/#/#mate:libera.chat))
 
   * [Issue tracker](https://github.com/mate-desktop/), [FAQ](pages/faq.md), [Known issues](pages/known_issues.md)
 

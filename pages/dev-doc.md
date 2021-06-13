@@ -61,9 +61,9 @@ Roadmap goals are determine by:
 
 Development discussions take place in two locations:
 
-  * #mate-dev irc.freenode.net
+  * #mate-dev at irc.libera.chat in IRC or #mate-dev:libera.chat in Matrix
 
-  * The MATE github repos
+  * The MATE GitHub repos
 
 We strongly recommend joining #mate-dev to coordinate with other developers.
 This helps expedite the development process and coordinate development

@@ -1,6 +1,9 @@
 # Install
 
-Should you have issues relating to MATE installation, you may inquire in our [#mate](https://webchat.freenode.net?randomnick=1&channels=mate&prompt=1) IRC channel on the freenode network.
+Should you have issues relating to MATE installation, you may inquire in our
+[#mate](https://web.libera.chat/?#mate) IRC channel or
+[#mate](https://matrix.to/#/#mate-dev:libera.chat) Matrix channel on the
+Libera Chat network.
 
 There are some prominent Linux distributions that include MATE in their official repositories:
 
