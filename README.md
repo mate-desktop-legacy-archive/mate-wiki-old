@@ -1,18 +1,16 @@
-# MATE-Wiki page
+About this Repository
+--
 
-## For Developers
+This Github repository contains two branches.
 
-You don't need to read below here or do anything at all if you're only interested creating your own wiki. This section is for developers or maintainers of this repository.
+The files in the *source* branch are used by Hugo, a static site generator, to generate the html files that go to the *main* branch.
 
-### Update MDwiki
+How do the files from the *source* branch go to the *main* branch?
+This is handled by Github Actions. The details are located in .github/workflows/gh-pages.yml.
 
-> Current version: [0.6.2](https://git.io/HBH5Wg).
+Everything that exists in the *main* branch is automatically published using Github Pages. Thus the *main* branch should never be edited directly, as it gets overwritten by every push to the *source* branch.
 
-1. Go to https://github.com/Dynalon/mdwiki/releases/latest
-1. Click on the green button on that page to download the latest release
-1. Extract the contents of the archive file
-1. Copy `mdwiki.html` file from the extracted files onto `index.html` file in this repository by renaming, thus overriding `index.html`
-1. Update the version information above
-1. Commit and push your changes
+How to contribute?
+--
 
-You can now delete any files downloaded previously, if you want to.
+Just fork this repository, checkout from the *source* branch of your fork to a new branch (for example to *my-cool-feature*). Edit some files. Check your work by running `hugo server -D` in the root directory of your cloned fork. If you are happy with your changes, make a pull request to the *source* branch of this repository.
